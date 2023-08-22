@@ -1,0 +1,83 @@
+# Main Configuration
+baseURL = "http://blog.crazyc4t.xyz/"
+languageCode = "en-us"
+title = "crazyc4t's blog"
+theme = "hugo-bearcub"
+defaultContentLanguage = "en"
+copyright = "[GPLv3](https://choosealicense.com/licenses/gpl-3.0/)"
+
+
+# Generate good SEO
+enableRobotsTXT = true
+
+[author]
+name = "Said Neder"
+
+[markup]
+[markup.highlight]
+lineNos = true
+lineNumbersInTable = false
+# This allows Bear Cub to use a variation of Dracula that is more accessible
+# to people with poor eyesight. For more information about color contrast
+# and accessibility, see https://web.dev/color-and-contrast-accessibility/
+noClasses = false
+
+# Multilingual mode config. More for information about how to setup translation,
+# see https://gohugo.io/content-management/multilingual/
+[languages]
+
+[languages.en]
+title = "crazyc4t's blog"
+languageName = "en 🇨🇦"
+languageCode = "en-US"
+contentDir = "content"
+
+[languages.en.params]
+blogPath = "/blog"                                       # Path to your blog section (used by RSS)
+madewith = "Made with ❤️ and [Hugo](https://gohugo.io/)"
+
+[languages.es]
+title = "El blog de crazyc4t"
+languageName = "es 🇪🇨"
+languageCode = "es-419"
+contentDir = "contenido"
+
+[languages.es.params]
+blogPath = "/es/blog"                                  # Path to your blog section (used by RSS)
+madewith = "Hecho con ❤️ y [Hugo](https://gohugo.io/)"
+
+[params]
+# The description of your website
+description = "crazyc4t's blog"
+
+# The path to your favicon
+favicon = "favicon.ico"
+
+# These images will show up when services want to generate a preview of a link
+# to your site. Ignored if `generateSocialCard = true`. For more information
+# about previews, see https://gohugo.io/templates/internal#twitter-cards and
+# https://gohugo.io/templates/internal#open-graph
+images = ["/hugo-bearcub/images/share.webp"]
+
+# Dates are displayed following the format below. For more information about
+# formatting, see https://gohugo.io/functions/format/
+dateFormat = "2006-01-02"
+
+# If your blog is multilingual but you haven't translated a page, this theme
+# will create a disabled link. By setting `hideUntranslated` to true, you can
+# have the theme simply not show any link
+hideUntranslated = true
+
+# (EXPERIMENTAL) This theme is capable of dynamically generating social cards
+# for posts that don't have `images` defined in their front matter; By setting
+# `generateSocialCard` to false, you can prevent this behavior. For more
+# information see layouts/partials/seo_tags.html
+generateSocialCard = true
+
+enableEmoji = true
+
+enableInlineShortcodes = true
+# Social media. Delete any item you aren't using to make sure it won't show up
+# in your website's metadata.
+[social]
+email = "snederc@protonmail.com" # Added to the navbar so readers can reply to posts
