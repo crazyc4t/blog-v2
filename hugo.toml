@@ -30,17 +30,17 @@ noClasses = false
 title = "crazyc4t's blog"
 languageName = "en 🇨🇦"
 languageCode = "en-US"
-contentDir = "content"
+contentDir = "content/en/"
 
 [languages.en.params]
-blogPath = "/blog"                                       # Path to your blog section (used by RSS)
+blogPath = "/en/blog"                                    # Path to your blog section (used by RSS)
 madewith = "Made with ❤️ and [Hugo](https://gohugo.io/)"
 
 [languages.es]
 title = "El blog de crazyc4t"
 languageName = "es 🇪🇨"
 languageCode = "es-419"
-contentDir = "contenido"
+contentDir = "content/es"
 
 [languages.es.params]
 blogPath = "/es/blog"                                  # Path to your blog section (used by RSS)
