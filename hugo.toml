@@ -4,7 +4,7 @@ languageCode = "en-us"
 title = "crazyc4t's blog"
 theme = "hugo-bearcub"
 defaultContentLanguage = "en"
-copyright = "[GPLv3](https://choosealicense.com/licenses/gpl-3.0/)"
+copyright = "[CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)"
 
 
 # Generate good SEO

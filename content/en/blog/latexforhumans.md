@@ -8,6 +8,7 @@ toc: true
 categories: "Productivity"
 image: "images/hellolatex.png"
 license: GPLv3
+math: true
 ---
 
 ## Intro
