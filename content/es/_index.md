@@ -1,3 +1,9 @@
+---
+title: "Home"
+menu: "main"
+weight: 1
+math: true
+---
 # Hola a todos!
 
 Yo soy Said Neder, conocido mejor como "crazyc4t", y soy estudiante de ciencias de la computación en Fraser International College en Vancouver, Columbia Británica, Canadá! 🇨🇦
