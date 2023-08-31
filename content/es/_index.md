@@ -1,25 +1,19 @@
----
-title: "Home"
-menu: "main"
-weight: 1
-math: true
----
+# Hola a todos!
 
-# Howdy everyone
+Yo soy Said Neder, conocido mejor como "crazyc4t", y soy estudiante de ciencias de la computación en Fraser International College en Vancouver, Columbia Británica, Canadá! 🇨🇦
 
-I'm Said Neder, known as crazyc4t, and I'm a computer science student at Fraser International College (FIC) in beautiful Vancouver, British Columbia, Canada! 🇨🇦
-
-I currently work as a I.T help desk in Centrum Concierge & Security Ltd. and hold the following certifications:
-- AWS CCP
+Actualmente trabajo como auxiliar de T.I en Centrum Concierge & Security Ltd y obtengo las siguientes certificaciones:
 - CompTIA A+
+- AWS CCP
 - IELTS 7.0
 - MET C1
 
-I'm studying for my [Certified in Cybersecurity](https://www.isc2.org/certifications/cc) certification made by [ISC\\(^2\\)](https://www.isc2.org/).
+Me encuentro estudiando para mi próxima certificacion siendo [Certified in Cybersecurity](https://www.isc2.org/certifications/cc) hecha por [ISC\\(^2\\)](https://www.isc2.org/).
 
-Expect lots of blogs about math, code, linux, and more!
+Esperen muchos blogs de matemática, programación, linux y más, no prometo mucho debido que no subo mucho contenido en español pero trataré lo más que pueda!
 
-You can find more about me in [my links](https://crazyc4t.xyz).
+Pueden saber más de mi en [mis links](https://crazyc4t.xyz)
+
 
 ![Crazyc4t GitHub stats](https://github-readme-stats.vercel.app/api?username=crazyc4t&theme=merko&show_icons=true)
 
