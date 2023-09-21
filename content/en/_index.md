@@ -15,7 +15,9 @@ I currently work as a I.T help desk in Centrum Concierge & Security Ltd. and hol
 - IELTS 7.0
 - MET C1
 
-I'm studying for my [Certified in Cybersecurity](https://www.isc2.org/certifications/cc) certification made by [ISC\\(^2\\)](https://www.isc2.org/).
+I'm studying for my [Certified in Cybersecurity](https://www.isc2.org/certifications/cc) certification made by [ISC\\(^2\\)](https://www.isc2.org/). 
+
+(I passed! Got the [cert](misc/document.pdf), what should be my next certification?)
 
 Expect lots of blogs about math, code, linux, and more!
 

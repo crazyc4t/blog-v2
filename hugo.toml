@@ -5,7 +5,7 @@ title = "crazyc4t's blog"
 theme = "hugo-bearcub"
 defaultContentLanguage = "en"
 copyright = "[CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)"
-
+tableOfContents = true
 
 # Generate good SEO
 enableRobotsTXT = true
