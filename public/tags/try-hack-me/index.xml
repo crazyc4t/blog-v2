@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Try Hack Me on crazyc4t&#39;s blog</title>
+    <link>http://localhost:1313/tags/try-hack-me/</link>
+    <description>Recent content in Try Hack Me on crazyc4t&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 06 Nov 2022 08:42:00 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/try-hack-me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mr Robot CTF</title>
+      <link>http://localhost:1313/blog/mrrobot/</link>
+      <pubDate>Sun, 06 Nov 2022 08:42:00 -0500</pubDate>
+      <guid>http://localhost:1313/blog/mrrobot/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/mrrobot.png&#34; alt=&#34;head&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Welcome to a new machine walkthrough!&lt;/p&gt;&#xA;&lt;p&gt;Now it&amp;rsquo;s the time for this awesome machine that is the &lt;a href=&#34;https://tryhackme.com/room/mrrobot&#34;&gt;Mr Robot&lt;/a&gt; room in Try Hack Me!&lt;/p&gt;&#xA;&lt;h2 id=&#34;enumeration&#34;&gt;Enumeration&lt;/h2&gt;&#xA;&lt;p&gt;First my own methodology that I&amp;rsquo;m working with is to make Nmap scans, while doing some gobuster&amp;rsquo;s directories discoveries, so let&amp;rsquo;s go step by step.&lt;/p&gt;&#xA;&lt;h3 id=&#34;nmap&#34;&gt;Nmap&lt;/h3&gt;&#xA;&lt;p&gt;&lt;code&gt;sudo nmap -sS -Pn -T5 -p- -vvv --open 10.10.112.68 -oG allPorts&lt;/code&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/mrrobot1.png&#34; alt=&#34;mrrobot1&#34;&gt;&#xA;With the &lt;code&gt;-vvv&lt;/code&gt; triple verbosity flag we know already open ports without the scan being finished, giving us a bit of time to work.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deep dive into nmap</title>
+      <link>http://localhost:1313/blog/nmap/</link>
+      <pubDate>Sat, 05 Nov 2022 13:17:13 -0500</pubDate>
+      <guid>http://localhost:1313/blog/nmap/</guid>
+      <description>&lt;p&gt;When it comes to hacking, knowledge is power, the more you know, the more options you have to attack, making critical a proper enumeration before any type of exploitation.&lt;/p&gt;&#xA;&lt;p&gt;Before attacking our target we need to know what is what we are about to attack, we need to know what type of services or OS is running, and we can accomplish that by making a network map, hence the name of Nmap, specifically doing &amp;ldquo;port scanning&amp;rdquo;, because these services are listening on a specific &amp;ldquo;ports&amp;rdquo; of the network, being ports a network structure your service runs on to establish a connection, the service are always &amp;ldquo;listening&amp;rdquo; (waiting for another device that wants to establish a connection) and the user when connecting to the specific port they open a port for receiving information from the other port (for example: HTTPS 443)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pickle Rick CTF</title>
+      <link>http://localhost:1313/blog/picklerick/</link>
+      <pubDate>Thu, 27 Oct 2022 19:18:39 -0500</pubDate>
+      <guid>http://localhost:1313/blog/picklerick/</guid>
+      <description>&lt;p&gt;Hello world! I&amp;rsquo;m back again with a new blogpost, related to hacking! am preparing myself for the eJPT so I&amp;rsquo;m taking tons of machines while taking the learning paths from Try Hack Me, specifically the &amp;ldquo;Pre-Security&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;This Rick and Morty themed challenge requires you to exploit a webserver to find 3 ingredients that will help rick make his potion to transform himself back into human from a pickle!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tryhackme.com/room/picklerick&#34;&gt;Room link&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

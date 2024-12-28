@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on crazyc4t&#39;s blog</title>
+    <link>http://localhost:1313/tags/blog/</link>
+    <description>Recent content in Blog on crazyc4t&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 02 Sep 2022 18:45:39 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using namecheap domain with github pages!</title>
+      <link>http://localhost:1313/blog/namecheap/</link>
+      <pubDate>Fri, 02 Sep 2022 18:45:39 -0500</pubDate>
+      <guid>http://localhost:1313/blog/namecheap/</guid>
+      <description>&lt;p&gt;Hello everyone! It&amp;rsquo;s crazyc4t once again, I have some news, I changed my domain! There is no more saidneder.tech, now it&amp;rsquo;s &lt;a href=&#34;https://crazyc4t.xyz&#34;&gt;crazyc4t.xyz&lt;/a&gt; since my saidneder.tech domain was really expensive for renewal and I felt that it was my mistake because of the company that I chose to buy my domain from, that is HostGator, which I totally don&amp;rsquo;t recommend, difficult to use and configure, expensive, and not friendly at all, so instead of renewing my old domain I bought a new one in &lt;a href=&#34;https://namecheap.com&#34;&gt;namecheap.com&lt;/a&gt;! and It was awesome, I deployed my blog to my new domain with https encryption in less than 30 minutes! And that was because of the wait time to generate the security certificate, so in this post am going to show you how to use your domain bought from namecheap with github pages!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

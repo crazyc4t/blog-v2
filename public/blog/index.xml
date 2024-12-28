@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on crazyc4t&#39;s blog</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Blog on crazyc4t&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 22 Mar 2023 11:59:47 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gophercise #1 &#34;Quiz&#34; Walkthrough!</title>
+      <link>http://localhost:1313/blog/gophercise/</link>
+      <pubDate>Wed, 22 Mar 2023 11:59:47 -0500</pubDate>
+      <guid>http://localhost:1313/blog/gophercise/</guid>
+      <description>&lt;p&gt;What&amp;rsquo;s up guys! It&amp;rsquo;s crazyc4t here, once again, I&amp;rsquo;m sorry for not being fully active these past couple of weeks, but I&amp;rsquo;m here for you guys and I&amp;rsquo;m bringing you the best way to learn golang, and that is coding with it!&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-gophercises&#34;&gt;What is Gophercises?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://gophercises.com/&#34;&gt;Gophercises&lt;/a&gt; is a webpage made by &lt;a href=&#34;https://www.calhoun.io/&#34;&gt;Jon Calhoun&lt;/a&gt;, an experienced web developer with go, and we takes us through a series of exercises to code with golang making us improve our way to code in go by exploring topics like channels, concurrency, methods, using the standard library and more! The best thing of all is that is free! So you won&amp;rsquo;t lose anything trying it out, instead you will have tons of fun like I did!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>I am studying for my JNCIA-JunOS and why you should do too!</title>
+      <link>http://localhost:1313/blog/jncia/</link>
+      <pubDate>Fri, 20 Jan 2023 11:14:01 -0500</pubDate>
+      <guid>http://localhost:1313/blog/jncia/</guid>
+      <description>&lt;h1 id=&#34;my-journey-into-getting-jncia-junos-certified&#34;&gt;My journey into getting JNCIA-JunOS certified!&lt;/h1&gt;&#xA;&lt;p&gt;Hello guys it&amp;rsquo;s crazyc4t once again, first of all happy new years!&lt;/p&gt;&#xA;&lt;p&gt;I know I haven&amp;rsquo;t been active lately but this will change, starting with my lack of networking skills, I must need to admit, I&amp;rsquo;m not a fan of networking&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Why are you writing this blogpost then?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;First, let me get you in the context&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;my-story-with-networking&#34;&gt;My story with networking&lt;/h2&gt;&#xA;&lt;p&gt;As I said, I&amp;rsquo;m not a huge fan of networking, doesn&amp;rsquo;t mean that I don&amp;rsquo;t like it, it&amp;rsquo;s just that I prefer doing other things like ethical hacking and learn more about linux tho, but at one stage of ethical hacking I noticed the lack of my networking skills, since I understood everything that I was doing but very broadly, and I wanted to understand more deeply, so that&amp;rsquo;s why I went my way to get the CCNA, started with &lt;a href=&#34;https://www.youtube.com/watch?v=H8W9oMNSuwo&amp;amp;list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ&#34;&gt;Jeremy&amp;rsquo;s IT labs course&lt;/a&gt; that is truly awesome really is a great resource but, for me it didn&amp;rsquo;t clicked and just felt boring and not aligned with what I wanted, so I left CCNA and started studying a lot of stuff that lead me to not certify myself in months, in a blank space where I didn&amp;rsquo;t knew where to go or to do, but I got a job in cybersecurity and it was awesome! And that made me acknowledge that I&amp;rsquo;m good and I like cybersecurity and blue team operations, that is my thing!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Elk stack once and for all!</title>
+      <link>http://localhost:1313/blog/elk-stack/</link>
+      <pubDate>Tue, 06 Dec 2022 14:34:23 -0500</pubDate>
+      <guid>http://localhost:1313/blog/elk-stack/</guid>
+      <description>&lt;p&gt;Welcome to this quick guide on using the ELK stack, specially Elastic&amp;rsquo;s Kibana interface to search, filter and create visualizations and dashboards, taking as an example the investigation of vpn logs for anomalies.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/elk1.png&#34; alt=&#34;elk1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Is a collection of different open-source software developed by Elastic, linked together to take data from endpoints (computers, networks, any source in particular) in any format and being able to perform a search, analyze and visualize the data in real-time.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mr Robot CTF</title>
+      <link>http://localhost:1313/blog/mrrobot/</link>
+      <pubDate>Sun, 06 Nov 2022 08:42:00 -0500</pubDate>
+      <guid>http://localhost:1313/blog/mrrobot/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/mrrobot.png&#34; alt=&#34;head&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Welcome to a new machine walkthrough!&lt;/p&gt;&#xA;&lt;p&gt;Now it&amp;rsquo;s the time for this awesome machine that is the &lt;a href=&#34;https://tryhackme.com/room/mrrobot&#34;&gt;Mr Robot&lt;/a&gt; room in Try Hack Me!&lt;/p&gt;&#xA;&lt;h2 id=&#34;enumeration&#34;&gt;Enumeration&lt;/h2&gt;&#xA;&lt;p&gt;First my own methodology that I&amp;rsquo;m working with is to make Nmap scans, while doing some gobuster&amp;rsquo;s directories discoveries, so let&amp;rsquo;s go step by step.&lt;/p&gt;&#xA;&lt;h3 id=&#34;nmap&#34;&gt;Nmap&lt;/h3&gt;&#xA;&lt;p&gt;&lt;code&gt;sudo nmap -sS -Pn -T5 -p- -vvv --open 10.10.112.68 -oG allPorts&lt;/code&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/mrrobot1.png&#34; alt=&#34;mrrobot1&#34;&gt;&#xA;With the &lt;code&gt;-vvv&lt;/code&gt; triple verbosity flag we know already open ports without the scan being finished, giving us a bit of time to work.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deep dive into nmap</title>
+      <link>http://localhost:1313/blog/nmap/</link>
+      <pubDate>Sat, 05 Nov 2022 13:17:13 -0500</pubDate>
+      <guid>http://localhost:1313/blog/nmap/</guid>
+      <description>&lt;p&gt;When it comes to hacking, knowledge is power, the more you know, the more options you have to attack, making critical a proper enumeration before any type of exploitation.&lt;/p&gt;&#xA;&lt;p&gt;Before attacking our target we need to know what is what we are about to attack, we need to know what type of services or OS is running, and we can accomplish that by making a network map, hence the name of Nmap, specifically doing &amp;ldquo;port scanning&amp;rdquo;, because these services are listening on a specific &amp;ldquo;ports&amp;rdquo; of the network, being ports a network structure your service runs on to establish a connection, the service are always &amp;ldquo;listening&amp;rdquo; (waiting for another device that wants to establish a connection) and the user when connecting to the specific port they open a port for receiving information from the other port (for example: HTTPS 443)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pickle Rick CTF</title>
+      <link>http://localhost:1313/blog/picklerick/</link>
+      <pubDate>Thu, 27 Oct 2022 19:18:39 -0500</pubDate>
+      <guid>http://localhost:1313/blog/picklerick/</guid>
+      <description>&lt;p&gt;Hello world! I&amp;rsquo;m back again with a new blogpost, related to hacking! am preparing myself for the eJPT so I&amp;rsquo;m taking tons of machines while taking the learning paths from Try Hack Me, specifically the &amp;ldquo;Pre-Security&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;This Rick and Morty themed challenge requires you to exploit a webserver to find 3 ingredients that will help rick make his potion to transform himself back into human from a pickle!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tryhackme.com/room/picklerick&#34;&gt;Room link&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Boss of the SOC walkthrough</title>
+      <link>http://localhost:1313/blog/botsv3/</link>
+      <pubDate>Tue, 18 Oct 2022 13:03:09 -0500</pubDate>
+      <guid>http://localhost:1313/blog/botsv3/</guid>
+      <description>&lt;h1 id=&#34;starting-point&#34;&gt;Starting point&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Download Boss of the SOC VM from the &lt;a href=&#34;https://tryhackme.com/room/kimctf2022&#34;&gt;THM room&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Import the VM with VirtualBox&lt;/li&gt;&#xA;&lt;li&gt;In the host machine, navigate to &lt;a href=&#34;#ZgotmplZ&#34;&gt;localhost:8000&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;mission-of-the-ctf&#34;&gt;Mission of the CTF&lt;/h2&gt;&#xA;&lt;p&gt;The mission is to look for certain data using the SPL (Splunk Processing Language) being the flags, data.&lt;/p&gt;&#xA;&lt;p&gt;Boss of the SOC is a blue-team CTF that helps you enhance your hunting and analysis skills.&lt;br&gt;&#xA;You will use Splunk and other tools to answer a variety of questions about security incidents that&lt;br&gt;&#xA;have occurred in a realistic but fictitious enterprise environment. It&amp;rsquo;s designed to emulate how&lt;br&gt;&#xA;real security incidents look in Splunk and the type of questions analysts have to answer. The&lt;br&gt;&#xA;objective is to recreate the life of a security analyst facing down an adversary at all stages of an&lt;br&gt;&#xA;attack.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to play Overwatch 2 in linux</title>
+      <link>http://localhost:1313/blog/overwatch2/</link>
+      <pubDate>Sat, 08 Oct 2022 13:07:44 -0500</pubDate>
+      <guid>http://localhost:1313/blog/overwatch2/</guid>
+      <description>&lt;p&gt;Hello guys! First of all, thanks for reading my blog, overwatch 2 has been released and it&amp;rsquo;s time for us to try it!&lt;/p&gt;&#xA;&lt;p&gt;Playing it on linux is really simple, so feel free to follow along!&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m using arch linux when following this guide, if you are not running arch linux as your linux distribution, don&amp;rsquo;t worry! Just make sure everything is up-to-date with your system.&lt;/p&gt;&#xA;&lt;h2 id=&#34;installing-the-requirements&#34;&gt;Installing the requirements&lt;/h2&gt;&#xA;&lt;p&gt;First of all we need to install:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Using namecheap domain with github pages!</title>
+      <link>http://localhost:1313/blog/namecheap/</link>
+      <pubDate>Fri, 02 Sep 2022 18:45:39 -0500</pubDate>
+      <guid>http://localhost:1313/blog/namecheap/</guid>
+      <description>&lt;p&gt;Hello everyone! It&amp;rsquo;s crazyc4t once again, I have some news, I changed my domain! There is no more saidneder.tech, now it&amp;rsquo;s &lt;a href=&#34;https://crazyc4t.xyz&#34;&gt;crazyc4t.xyz&lt;/a&gt; since my saidneder.tech domain was really expensive for renewal and I felt that it was my mistake because of the company that I chose to buy my domain from, that is HostGator, which I totally don&amp;rsquo;t recommend, difficult to use and configure, expensive, and not friendly at all, so instead of renewing my old domain I bought a new one in &lt;a href=&#34;https://namecheap.com&#34;&gt;namecheap.com&lt;/a&gt;! and It was awesome, I deployed my blog to my new domain with https encryption in less than 30 minutes! And that was because of the wait time to generate the security certificate, so in this post am going to show you how to use your domain bought from namecheap with github pages!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Programming with go!</title>
+      <link>http://localhost:1313/blog/gostart/</link>
+      <pubDate>Sun, 28 Aug 2022 13:25:00 -0500</pubDate>
+      <guid>http://localhost:1313/blog/gostart/</guid>
+      <description>&lt;h1 id=&#34;how-to-start-programming-with-go&#34;&gt;How to start programming with Go&lt;/h1&gt;&#xA;&lt;p&gt;Hello guys it&amp;rsquo;s crazyc4t once again, sorry for being a bit distant on my blog but prepare yourselves because there&amp;rsquo;s more content in the oven!&lt;/p&gt;&#xA;&lt;p&gt;I disappeared but with a purpose, I was laser-locked focused learning go! And it is really fun, but first&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-go&#34;&gt;What is go?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/gopher-dance-long-3x.gif&#34; alt=&#34;Gopher&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://go.dev/&#34;&gt;Go&lt;/a&gt; is an open-source programming language supported by Google, created by Ken Thompson and Rob Pike, the creators of the UNIX operating system, made for Google-sized problems, being Go a static fast-compiled language, that includes native concurrency, garbage collection and efficiency at scale.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to bounce back from a relapse</title>
+      <link>http://localhost:1313/blog/bounceback/</link>
+      <pubDate>Wed, 29 Jun 2022 23:32:56 -0500</pubDate>
+      <guid>http://localhost:1313/blog/bounceback/</guid>
+      <description>&lt;p&gt;Hello my fellow readers! Am back with a new blogpost, and am going to talk about how to bounce back, when you screw up, and have a bad streak that seems to never end, and you get frustrated about it, how is affecting your life, and that you feel that is really difficult to come back as you were before, and you wish everything was like before, but let me tell you, there&amp;rsquo;s a solution, with much hope and faith in yourself you can make it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How I passed the compTIA A&#43;</title>
+      <link>http://localhost:1313/blog/a&#43;/</link>
+      <pubDate>Wed, 20 Apr 2022 12:10:12 -0500</pubDate>
+      <guid>http://localhost:1313/blog/a&#43;/</guid>
+      <description>&lt;h1 id=&#34;guide-to-conquer-comptia-a&#34;&gt;Guide to conquer compTIA A+&lt;/h1&gt;&#xA;&lt;p&gt;This is the guide to conquer compTIA A+ made by Said Neder, this is what am doing to study and get certified!&lt;/p&gt;&#xA;&lt;p&gt;Here I documented everything that I learned when preparing for the exam, this are my notes to study and remember what I did, and I passed!&lt;/p&gt;&#xA;&lt;p&gt;Am taking this exam on 11th and 13th of april, 2022!&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;What is compTIA A+?&lt;/strong&gt;&#xA;Is the Computing Technology Industry Association, being vendor-neutral, they have been around since the 80&amp;rsquo;s.&#xA;The A+ is a test designed for IT technicians anywhere from 6-9 months of experience, being one of the most popular certification.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What to do after installing Fedora KDE</title>
+      <link>http://localhost:1313/blog/debloating_fedora/</link>
+      <pubDate>Tue, 01 Mar 2022 20:59:45 -0500</pubDate>
+      <guid>http://localhost:1313/blog/debloating_fedora/</guid>
+      <description>&lt;p&gt;Welcome again to my blog, it has been a bit of a long time isn&amp;rsquo;t it? But am back once again! And more active than ever so expect so more blogposts coming your way!&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-am-running-fedora&#34;&gt;Why am running fedora&lt;/h2&gt;&#xA;&lt;p&gt;As some of you know, I was using &lt;a href=&#34;https://archlinux.org/&#34;&gt;Arch Linux&lt;/a&gt; with a window manager or &amp;ldquo;WM&amp;rdquo; for simplicity, (If you want to see my dotfiles, &lt;a href=&#34;https://github.com/crazyc4t/dotfiles&#34;&gt;here&amp;rsquo;s the repo&lt;/a&gt;) and It was great! But am on a Laptop, and I needed something more easier to setup since I didn&amp;rsquo;t had the time and in some situations where I needed to take my laptop with me I needed to install some packages and read the wiki, etc for order to make a specific printer work, for example, so it wasn&amp;rsquo;t practical and I just needed something that just worked, bleeding-edge, and a distro that had good documentation and promotes new solutions, and there is where &lt;a href=&#34;https://getfedora.org/&#34;&gt;Fedora&lt;/a&gt; takes place, since I want to learn how to administrate Linux Servers based on &lt;a href=&#34;https://redhat.com&#34;&gt;Red Hat&lt;/a&gt; being the company that sponsors the fedora project, it was a perfect fit for me! So in that way I can learn more about DNF (The package manager), Selinux, BTRFS, ZRAM and all of this greatest and latest tech work!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to code your own discord bot!</title>
+      <link>http://localhost:1313/blog/discordbot/</link>
+      <pubDate>Fri, 11 Feb 2022 11:19:06 -0500</pubDate>
+      <guid>http://localhost:1313/blog/discordbot/</guid>
+      <description>&lt;h1 id=&#34;patrick-star-bot-&#34;&gt;Patrick Star Bot 📕&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://img.shields.io/github/license/crazyc4t/PatrickStar?color=brightgreen&#34; alt=&#34;GitHub License&#34;&gt;&#xA;&lt;img src=&#34;https://img.shields.io/github/last-commit/crazyc4t/PatrickStar&#34; alt=&#34;GitHub last commit&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is my first time programming a bot on discord with discord.js!&#xA;This bot is about having my classes at my fingertips, so it&#xA;gives links with special commands that facilitate the process.&#xA;You are free to clone the code and use it the way you want!&#xA;You can edit it and make it your own!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/botdemo.gif&#34; alt=&#34;Demo&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;commands&#34;&gt;Commands&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Prefix: 9&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The prefix means that is the initial character that is used to communicate&#xA;with the bot!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LaTeX for humans</title>
+      <link>http://localhost:1313/blog/latexforhumans/</link>
+      <pubDate>Wed, 19 Jan 2022 17:22:31 +0000</pubDate>
+      <guid>http://localhost:1313/blog/latexforhumans/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;This post is going to help you learn \(\LaTeX\) and convert you into a intellectual and scientific professional and by far superior with anyone that shares their report made in word!&lt;/p&gt;&#xA;&lt;p&gt;But before anything&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-all-this-tex-thingy&#34;&gt;What is all this \(\TeX\) thingy?&lt;/h2&gt;&#xA;&lt;p&gt;In summary \(\LaTeX\) is the form of creating a document with the highest quality of typesetting possible, being made with commands you will have to compile it each time to see the result so \(\LaTeX\) isn&amp;rsquo;t a WYSIWYG(what you see is what you get) editor, but don&amp;rsquo;t worry! \(\LaTeX\) is so awesome now that a quick &lt;code&gt;CTRL+S&lt;/code&gt; will compile your result and let you see how you are going on time! so no worries there. The story goes back to 1977 when Donald Knuth understood the need for a high quality typesetting program, and \(\LaTeX\) being still used today shows that is the best tool for it&amp;rsquo;s purpose, although many useful additions have been made and \(\LaTeX\) has evolutionated since then.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How can overthinking ruin your mindset</title>
+      <link>http://localhost:1313/blog/dontoverthink/</link>
+      <pubDate>Mon, 10 Jan 2022 01:56:57 -0500</pubDate>
+      <guid>http://localhost:1313/blog/dontoverthink/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;Well first let me welcome you to this new year 2022! I wish you the best for this year and time to rock on and create and achieve what you most want! I welcome you to this new year with this new blog post! I haven&amp;rsquo;t write an advice post in a while so let&amp;rsquo;s get started!&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-overthinking&#34;&gt;What is overthinking?&lt;/h2&gt;&#xA;&lt;p&gt;Overthinking is just the action to before doing something you think a lot of that action so you can excuse yourself to not do it, If you need to training, but before showering and getting ready you are already thinking &amp;ldquo;My pinky toe hurts a bit I should stay&amp;hellip;&amp;rdquo; just getting excuses on top of your head to not do something that you don&amp;rsquo;t feel like doing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vim for everyone!</title>
+      <link>http://localhost:1313/blog/vimforeveryone/</link>
+      <pubDate>Sun, 09 Jan 2022 22:00:04 -0500</pubDate>
+      <guid>http://localhost:1313/blog/vimforeveryone/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;This is a vim-neovim tutorial, is a highly-configurable text editor that you can make it as you wish, and the way to use it is only with the keyboard and keybindings and learning it will improve your productivity at a whole other level, and it is included in every UNIX system and Mac OS, so if you configure servers remotely or work a lot in the terminal is really important to use vim, and you can add plugins and make a lot of cool stuff with it!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to free yourself by installing linux</title>
+      <link>http://localhost:1313/blog/freeyourself/</link>
+      <pubDate>Sun, 21 Nov 2021 01:40:22 -0500</pubDate>
+      <guid>http://localhost:1313/blog/freeyourself/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;This is a special blogpost since this is the guide to switch from windows to linux for new users, and the way to free them of propietary software and enjoy their freedom with free software, the software you should run!&lt;/p&gt;&#xA;&lt;p&gt;We are going to divide this guide in steps:&lt;/p&gt;&#xA;&lt;h2 id=&#34;intro-1&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;For the FAQ&amp;rsquo;s I made a &lt;a href=&#34;https://saidneder.tech/blog/penguin&#34;&gt;blogpost&lt;/a&gt; that covers this questions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;What is Linux?&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;What is GNU?&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;What is GNU/Linux?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to customize your terminal!</title>
+      <link>http://localhost:1313/blog/niceterminal/</link>
+      <pubDate>Sun, 14 Nov 2021 19:55:31 -0500</pubDate>
+      <guid>http://localhost:1313/blog/niceterminal/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;This is a tutorial-type of blogpost, sorry for being away so long, but there&amp;rsquo;s a lot of blogposts coming to your way, so expect some new ones!&lt;/p&gt;&#xA;&lt;p&gt;What we want to achieve in this tutorial:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;To have a fast terminal emulator&lt;/li&gt;&#xA;&lt;li&gt;To have a better shell with auto-completition&lt;/li&gt;&#xA;&lt;li&gt;To have a cool-looking with color scheme terminal&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;So let&amp;rsquo;s start with that!&lt;/p&gt;&#xA;&lt;h2 id=&#34;alacritty-the-fastest-opengl-terminal-emulator&#34;&gt;Alacritty, the fastest openGL terminal emulator&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/alacritty/alacritty&#34;&gt;Alacritty&lt;/a&gt; is the fastest terminal emulator out there, and the best of all is that is cross-platform! so you can install it on windows too! Although this guide is more toward linux users but if you are here from windows you can follow along too!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to comeback and win in life</title>
+      <link>http://localhost:1313/blog/comeback/</link>
+      <pubDate>Wed, 13 Oct 2021 23:53:55 -0500</pubDate>
+      <guid>http://localhost:1313/blog/comeback/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;First of all, let&amp;rsquo;s talk about the definition of the word &lt;strong&gt;comeback&lt;/strong&gt; shall we?&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Comeback: a return to a former higher rank, popularity, position, prosperity, etc.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;With that being said, a comeback is when you are on the low side of your streak and you make&#xA;the effort to get back where you deserve and were.&lt;/p&gt;&#xA;&lt;p&gt;This is critical in life, you will have a lot of situations that will demotivate you,&#xA;stop your momentum, your rhythm, and make you begin from scratch again,&#xA;and it will be difficult, to not say painful, since from your growth zone you fell back&#xA;to your comfort zone, and then is when you have to get &lt;strong&gt;up.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What is GNU &#43; Linux? Why should you care?</title>
+      <link>http://localhost:1313/blog/penguin/</link>
+      <pubDate>Wed, 22 Sep 2021 18:58:53 -0500</pubDate>
+      <guid>http://localhost:1313/blog/penguin/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;Am going to talk about one of my favourite things in the world, what lead me to where I am today, Linux, the open-source operating system created by the community!&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-linux&#34;&gt;What is linux?&lt;/h2&gt;&#xA;&lt;p&gt;You use Linux everyday, without even noticing, &lt;strong&gt;you are using linux right now!!&lt;/strong&gt; since this&#xA;webpage is hosted on &lt;a href=&#34;https://github.com/&#34;&gt;github&lt;/a&gt;, and github is hosted on &lt;a href=&#34;https://azure.microsoft.com/en-us/&#34;&gt;azure&lt;/a&gt;&#xA;that is the cloud computing service that microsoft offers, that their servers are based on linux, you see the connection?&#xA;&lt;strong&gt;Linux is everywhere!&lt;/strong&gt; and you can&amp;rsquo;t escape it, linux is on your cars, roku devices, servers, super computers,&#xA;android phones, smart devices, and we can go like this for hours, but answering the real question&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why minimalism is important in your life</title>
+      <link>http://localhost:1313/blog/minimalism/</link>
+      <pubDate>Tue, 21 Sep 2021 23:13:03 -0500</pubDate>
+      <guid>http://localhost:1313/blog/minimalism/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;This is my first (and not last) blogpost talking about life advice and my opinions&#xA;so just buckle up and enjoy the ride!&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-minimalism-in-the-first-place&#34;&gt;What is minimalism in the first place?&lt;/h2&gt;&#xA;&lt;p&gt;Is really self-explanatory isn&amp;rsquo;t it? Minimalism is just to live with the bare minimum,&#xA;and that goes for everything in life, from your house decorations to your life activities,&#xA;and the concept of minimalism really is to achieve simplicity with essential quality,&#xA;and that means that is perfect, no need for more or less.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

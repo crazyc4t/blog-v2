@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LaTeX on crazyc4t&#39;s blog</title>
+    <link>http://localhost:1313/tags/latex/</link>
+    <description>Recent content in LaTeX on crazyc4t&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 19 Jan 2022 17:22:31 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LaTeX for humans</title>
+      <link>http://localhost:1313/blog/latexforhumans/</link>
+      <pubDate>Wed, 19 Jan 2022 17:22:31 +0000</pubDate>
+      <guid>http://localhost:1313/blog/latexforhumans/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;This post is going to help you learn \(\LaTeX\) and convert you into a intellectual and scientific professional and by far superior with anyone that shares their report made in word!&lt;/p&gt;&#xA;&lt;p&gt;But before anything&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-all-this-tex-thingy&#34;&gt;What is all this \(\TeX\) thingy?&lt;/h2&gt;&#xA;&lt;p&gt;In summary \(\LaTeX\) is the form of creating a document with the highest quality of typesetting possible, being made with commands you will have to compile it each time to see the result so \(\LaTeX\) isn&amp;rsquo;t a WYSIWYG(what you see is what you get) editor, but don&amp;rsquo;t worry! \(\LaTeX\) is so awesome now that a quick &lt;code&gt;CTRL+S&lt;/code&gt; will compile your result and let you see how you are going on time! so no worries there. The story goes back to 1977 when Donald Knuth understood the need for a high quality typesetting program, and \(\LaTeX\) being still used today shows that is the best tool for it&amp;rsquo;s purpose, although many useful additions have been made and \(\LaTeX\) has evolutionated since then.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

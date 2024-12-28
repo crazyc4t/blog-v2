@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest" />
+<title>Programming with go! | crazyc4t&#39;s blog</title>
+<meta name="title" content="Programming with go!" />
+<meta name="description" content="How to get started programming with Go!" />
+<meta name="keywords" content="Go," />
+
+
+
+
+
+
+  
+  <meta property="og:url" content="http://localhost:1313/blog/gostart/">
+  <meta property="og:site_name" content="crazyc4t&#39;s blog">
+  <meta property="og:title" content="Programming with go!">
+  <meta property="og:description" content="How to get started programming with Go!">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2022-08-28T13:25:00-05:00">
+    <meta property="article:modified_time" content="2022-08-28T13:25:00-05:00">
+    <meta property="article:tag" content="Go">
+
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Programming with go!">
+  <meta name="twitter:description" content="How to get started programming with Go!">
+
+
+  
+  
+  <meta itemprop="name" content="Programming with go!">
+  <meta itemprop="description" content="How to get started programming with Go!">
+  <meta itemprop="datePublished" content="2022-08-28T13:25:00-05:00">
+  <meta itemprop="dateModified" content="2022-08-28T13:25:00-05:00">
+  <meta itemprop="wordCount" content="601">
+  <meta itemprop="keywords" content="Go">
+
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  
+  <link href="/style.min.css" rel="stylesheet">
+
+  
+  <link href="/syntax.min.css" rel="stylesheet">
+
+  
+
+  
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest" />
+</head>
+
+<body>
+  <header><a href="/" class="title"><h1>crazyc4t&#39;s blog</h1></a>
+<nav>
+<a href="/">Home</a>
+
+<a href="/blog/">Blog</a>
+ 
+<a
+  href='mailto:saidneder1@gmail.com?subject=Reply%20to%20"Programming%20with%20go%21"'
+  >Email</a
+>
+
+<a href="https://crazyc4t.xyz" target="_blank">My links</a>
+<a href="/index.xml">RSS</a>
+
+
+ 
+
+
+ 
+
+
+<a class="disabled" role="link" aria-disabled="true">es 🇪🇨</a>
+  
+</nav>
+</header>
+  <main> 
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest" />
+
+<h1>Programming with go!</h1>
+<p>
+  <i>
+    <time datetime='2022-08-28' pubdate>
+      2022-08-28
+    </time>
+  </i>
+</p>
+
+<content> <h1 id="how-to-start-programming-with-go">How to start programming with Go</h1>
+<p>Hello guys it&rsquo;s crazyc4t once again, sorry for being a bit distant on my blog but prepare yourselves because there&rsquo;s more content in the oven!</p>
+<p>I disappeared but with a purpose, I was laser-locked focused learning go! And it is really fun, but first&hellip;</p>
+<h2 id="what-is-go">What is go?</h2>
+<p><img src="/images/gopher-dance-long-3x.gif" alt="Gopher"></p>
+<p><a href="https://go.dev/">Go</a> is an open-source programming language supported by Google, created by Ken Thompson and Rob Pike, the creators of the UNIX operating system, made for Google-sized problems, being Go a static fast-compiled language, that includes native concurrency, garbage collection and efficiency at scale.</p>
+<h2 id="why-go">Why go?</h2>
+<p>Go is a programming language easy to pick up and get started with (as we are going to do in this post!) and easier if you come from other programming languages, it&rsquo;s syntax is similar to C, it has built-in concurrency and a robust standard library, the go community is growing as time passes and it features tons of modules, libraries, tools to play with and documentation to learn from like this one!</p>
+<p>Go is used for Google-sized problems, making FAANG interested in go, these are companies that use go to power their software:</p>
+<ul>
+<li>Google</li>
+<li>PayPal</li>
+<li>American Express</li>
+<li>Microsoft</li>
+<li>Meta</li>
+<li>Twitch</li>
+<li>Tweeter</li>
+<li>Netflix</li>
+</ul>
+<p>And so much more companies as well are joining the list since is really easy to pick up and the safety+speed concept that helps them right quality code, and make debugging really easy, since the compiler lints the errors you have in your code before you even compile it!</p>
+<p>Go is used on different code purposes like:</p>
+<ul>
+<li>Cloud &amp; network services</li>
+<li>Command-line interfaces</li>
+<li>Web development</li>
+<li>DevOps</li>
+</ul>
+<p>Projects that were built with go are:</p>
+<ul>
+<li>Docker</li>
+<li>Kubernetes</li>
+<li>Hugo</li>
+<li>Cockroach DB</li>
+<li>Gophish</li>
+<li>Arduino-CLI</li>
+<li>Github-CLI</li>
+</ul>
+<h2 id="getting-started-with-go">Getting started with go!</h2>
+<p><img src="/images/witch-learning.png" alt="Gopher"></p>
+<p>We need to setup our coding environment to code with go, first we need to install it.</p>
+<h3 id="installation-of-go">Installation of go</h3>
+<ul>
+<li><strong>Linux:</strong>
+<ul>
+<li><strong>Debian/Ubuntu:</strong> <code>sudo apt install golang</code></li>
+<li><strong>RHEL/Fedora:</strong> <code>sudo dnf install go</code></li>
+<li><strong>Arch BTW:</strong> <code>sudo pacman -S go</code></li>
+</ul>
+</li>
+<li><strong>Windows &amp; macOS:</strong>
+<ul>
+<li>Go to this website and install the binary: <a href="https://go.dev/dl">https://go.dev/dl</a></li>
+</ul>
+</li>
+</ul>
+<p>That&rsquo;s it! Check if you have it installed by checking it&rsquo;s version: <code>go version</code></p>
+<h3 id="setting-up-your-text-editor">Setting up your text editor</h3>
+<p>You can use any type of text editor you want but my personal recommendation is:</p>
+<ul>
+<li><a href="https://vscodium.com/">VSCodium</a> (VSCode FOSS binary)
+<ul>
+<li>Install the <a href="https://code.visualstudio.com/docs/languages/go">go extension</a></li>
+</ul>
+</li>
+<li><a href="https://neovim.io/">Neovim</a>
+<ul>
+<li>Install the &ldquo;gopls&rdquo; LSP and the &ldquo;gofmt&rdquo; formatter using your favorite LSP installer (<a href="https://github.com/williamboman/nvim-lsp-installer">lsp-installer</a>, <a href="https://github.com/williamboman/mason.nvim">mason.nvim</a>)</li>
+</ul>
+</li>
+<li><a href="https://www.jetbrains.com/go/">Jetbrains&rsquo;s Goland</a></li>
+</ul>
+<h2 id="write-some-code">Write some code!</h2>
+<h3 id="hello-world">Hello world!</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="c1">// Print hello world!
+</span></span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl"><span class="kn">package</span> <span class="nx">main</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl"><span class="c1">// meaning that it should be compiled as a executable program, not as a shared libary
+</span></span></span><span class="line"><span class="ln"> 5</span><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl"><span class="kn">import</span> <span class="s">&#34;fmt&#34;</span> <span class="c1">// The format package from the standard libary for printing the string
+</span></span></span><span class="line"><span class="ln"> 7</span><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">  <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Hello Gopher!&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>After coding you can run it by just doing so:
+<code>go run main.go</code></p>
+<p>Or you can compile it for your system!
+<code>go build main.go</code></p>
+<h3 id="lets-make-a-greeter">Let&rsquo;s make a greeter!</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="kn">package</span> <span class="nx">main</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl"><span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">  <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Hello! What&#39;s your name? &#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">  <span class="kd">var</span> <span class="nx">name</span> <span class="kt">string</span> <span class="c1">// creating a variable without a value of type string
+</span></span></span><span class="line"><span class="ln"> 8</span><span class="cl"><span class="c1"></span>  <span class="nx">fmt</span><span class="p">.</span><span class="nf">Scanf</span><span class="p">(</span><span class="s">&#34;%s&#34;</span><span class="p">,</span> <span class="o">&amp;</span><span class="nx">name</span><span class="p">)</span> <span class="c1">// Scan the input text and format it determined by the type
+</span></span></span><span class="line"><span class="ln"> 9</span><span class="cl"><span class="c1"></span>  <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Hello&#34;</span><span class="p">,</span> <span class="nx">name</span><span class="p">,</span> <span class="s">&#34;How are you doing?&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>After scratching the surface of go, this is the next step&hellip;</p>
+<h2 id="keep-learning">Keep learning!</h2>
+<p><img src="/images/hiking.png" alt="Gopher"></p>
+<p>These are some resources that are awesome!</p>
+<h3 id="webpages">Webpages</h3>
+<ul>
+<li><a href="https://gobyexample.com/">https://gobyexample.com/</a></li>
+<li><a href="https://go.dev/tour/welcome/1">https://go.dev/tour/welcome/1</a></li>
+</ul>
+<h3 id="tutorials">Tutorials</h3>
+<ul>
+<li><a href="https://youtu.be/yyUHQIec83I">TechWorld with Nana Go for beginners</a></li>
+<li><a href="https://youtu.be/YS4e4q9oBaU">FreeCodeCamp 7-hour Go tutorial</a></li>
+<li><a href="https://www.udemy.com/course/go-programming-golang-the-complete-developers-guide/">Go programming: The complete developer&rsquo;s guide</a> (It&rsquo;s a udemy course)</li>
+</ul>
+<h3 id="exercises">Exercises</h3>
+<ul>
+<li><a href="https://www.codewars.com/">CodeWars</a></li>
+<li><a href="https://exercism.org/tracks/go">Exercism</a></li>
+<li><a href="https://gophercises.com/">Gophercises</a></li>
+</ul>
+<h3 id="books">Books</h3>
+<ul>
+<li><a href="http://shop.oreilly.com/product/0636920046516.do">Introducing Go</a></li>
+<li><a href="https://www.oreilly.com/library/view/concurrency-in-go/9781491941294/">Concurrency Go</a></li>
+<li><a href="https://www.gopl.io/">The Go programming language</a></li>
+</ul>
+<h2 id="thank-you-for-reading">Thank you for reading!</h2>
+<p>I&rsquo;m learning go at the moment so expect more go content coming your way!</p>
+ </content>
+<p>
+  
+  <a class="blog-tags" href="http://localhost:1313/tags/go/">#Go</a>&nbsp;&nbsp;
+  
+</p>
+
+  </main>
+  <footer><small>
+  Made with ❤️ and <a href="https://gohugo.io/">Hugo</a>
+  <p xmlns:cc="http://creativecommons.org/ns#">
+    <a
+      href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"
+      target="_blank"
+      rel="license noopener noreferrer"
+      style="display: inline-block"
+      ><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"
+        alt="" /><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"
+        alt="" /><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"
+        alt="" /><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"
+        alt=""
+    /></a>
+  </p>
+</small>
+</footer>
+
+    
+</body>
+
+</html>

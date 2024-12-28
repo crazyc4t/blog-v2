@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest" />
+<title>Pickle Rick CTF | crazyc4t&#39;s blog</title>
+<meta name="title" content="Pickle Rick CTF" />
+<meta name="description" content="Walkthrough of the pickle Rick room on try hack me!" />
+<meta name="keywords" content="Try Hack Me," />
+
+
+
+
+
+
+  
+  <meta property="og:url" content="http://localhost:1313/blog/picklerick/">
+  <meta property="og:site_name" content="crazyc4t&#39;s blog">
+  <meta property="og:title" content="Pickle Rick CTF">
+  <meta property="og:description" content="Walkthrough of the pickle Rick room on try hack me!">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2022-10-27T19:18:39-05:00">
+    <meta property="article:modified_time" content="2022-10-27T19:18:39-05:00">
+    <meta property="article:tag" content="Try Hack Me">
+
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Pickle Rick CTF">
+  <meta name="twitter:description" content="Walkthrough of the pickle Rick room on try hack me!">
+
+
+  
+  
+  <meta itemprop="name" content="Pickle Rick CTF">
+  <meta itemprop="description" content="Walkthrough of the pickle Rick room on try hack me!">
+  <meta itemprop="datePublished" content="2022-10-27T19:18:39-05:00">
+  <meta itemprop="dateModified" content="2022-10-27T19:18:39-05:00">
+  <meta itemprop="wordCount" content="555">
+  <meta itemprop="keywords" content="Try Hack Me">
+
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  
+  <link href="/style.min.css" rel="stylesheet">
+
+  
+  <link href="/syntax.min.css" rel="stylesheet">
+
+  
+
+  
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest" />
+</head>
+
+<body>
+  <header><a href="/" class="title"><h1>crazyc4t&#39;s blog</h1></a>
+<nav>
+<a href="/">Home</a>
+
+<a href="/blog/">Blog</a>
+ 
+<a
+  href='mailto:saidneder1@gmail.com?subject=Reply%20to%20"Pickle%20Rick%20CTF"'
+  >Email</a
+>
+
+<a href="https://crazyc4t.xyz" target="_blank">My links</a>
+<a href="/index.xml">RSS</a>
+
+
+ 
+
+
+ 
+
+
+<a class="disabled" role="link" aria-disabled="true">es 🇪🇨</a>
+  
+</nav>
+</header>
+  <main> 
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest" />
+
+<h1>Pickle Rick CTF</h1>
+<p>
+  <i>
+    <time datetime='2022-10-27' pubdate>
+      2022-10-27
+    </time>
+  </i>
+</p>
+
+<content> <p>Hello world! I&rsquo;m back again with a new blogpost, related to hacking! am preparing myself for the eJPT so I&rsquo;m taking tons of machines while taking the learning paths from Try Hack Me, specifically the &ldquo;Pre-Security&rdquo;</p>
+<p>This Rick and Morty themed challenge requires you to exploit a webserver to find 3 ingredients that will help rick make his potion to transform himself back into human from a pickle!</p>
+<p><a href="https://tryhackme.com/room/picklerick">Room link</a></p>
+<p><strong>Difficulty: easy</strong></p>
+<h1 id="enumeration">Enumeration</h1>
+<p>We need to hack this website to get information over the 3 ingredients that Rick needs in order to become human again, so let&rsquo;s run nmap, nikto and gobuster while we inspect the source code of the webpage.</p>
+<h2 id="nmap">Nmap</h2>
+<pre tabindex="0"><code>sudo nmap -p- -Ss -Pn -T5 --open 10.10.67.45 -oG allPorts
+</code></pre><p><img src="/images/pknmap.png" alt="nmap"></p>
+<p>Giving the nmap scan we know that two ports are open:</p>
+<ul>
+<li>SSH (22)</li>
+<li>HTTP (80)</li>
+</ul>
+<p>And we have that stored on the file named &ldquo;allPorts&rdquo;</p>
+<h2 id="gobuster">Gobuster</h2>
+<pre tabindex="0"><code>gobuster -t 30 -u 10.10.67.45 -w common.txt
+</code></pre><p><img src="/images/pkbuster.png" alt="gobuster"></p>
+<p>We need to check always the status code of the HTTP request, being 301 <strong>forbidden</strong> but <strong>200</strong> is <strong>OK</strong> so that robots.txt looks good, let&rsquo;s check it out:
+<code>Wubbalubbadubdub</code></p>
+<p>That is what is was displayed, meaning that word should be used somewhere&hellip;</p>
+<h2 id="nikto">Nikto</h2>
+<pre tabindex="0"><code>nikto -h 10.10.67.45
+</code></pre><p>Nikto is a tool that scans the web for us and let&rsquo;s us know vulnerabilities associated with it and important directories we should know about, the important output of the command is a <code>login.php</code> route that will come handy later.</p>
+<h2 id="inspecting-the-source-code">Inspecting the source code</h2>
+<p><img src="/images/pksource.png" alt="source"></p>
+<p>That&rsquo;s perfect, now we have the username: <code>R1ckRul3s</code></p>
+<h2 id="gaining-access">Gaining access</h2>
+<p>Now let&rsquo;s go to that <code>login.php</code> directory, and let&rsquo;s try the credentials we have gathered:</p>
+<ul>
+<li>Username: <strong>R1ckRul3s</strong></li>
+<li>Password: <strong>Wubbalubbadubdub</strong></li>
+</ul>
+<p>And we have access!</p>
+<p><img src="/images/pkacc0.png" alt="companel">
+<img src="/images/pkreal.png" alt="picklerick"></p>
+<p>The other tabs are &ldquo;blocked&rdquo; for the real rick, this is the command panel, where we can execute commands, let&rsquo;s try the basics:</p>
+<ul>
+<li><code>pwd</code></li>
+<li><code>whoami</code></li>
+<li><code>ls -la</code></li>
+</ul>
+<p>After knowing a bit about were we are, we can now different directories:
+<img src="/images/pkls.png" alt="ls"></p>
+<p>Being <code>Sup3rS3cretPickl3Ingred.txt</code> path, the first ingredient that is a mr. meeseek hair (Look at me!) and the clue is to look around the filesystem and we can do so by executing differents commands at the same time, for example: <code>cd /; ls -la; whoami</code></p>
+<p>If we go to <code>/home/rick</code> we can see there is a <code>second ingredients</code> but is not a directory, instead is a file, so we can just cat it out:
+<img src="/images/pkcat.png" alt="cat"></p>
+<p>But the command is blocked, for us the future PICKLEEE RICCCCCKKKKK so we need to find another way around, that is using less: <code>cd /home/rick; less &quot;second ingredients&quot;</code></p>
+<p><img src="/images/pkless.png" alt="less">
+Being this the answer of the second ingredient.</p>
+<p>Time for looking to the third ingredient, by instict we should look first for the <code>/root</code> folder, but we don&rsquo;t have permissions so if we run <code>sudo -l</code> we can know the privilages we have as the <code>www-data</code> user.</p>
+<p><img src="/images/pkperm.png" alt="permission"></p>
+<p>This means we can run the <code>sudo</code> command without any password! We can&rsquo;t use the command <code>cd</code> with sudo beforehand, so let&rsquo;s use <code>ls</code> instead.</p>
+<p><img src="/images/pklssudo.png" alt="lssudo"></p>
+<p>So we can exploit this vulnerability by using less with sudo: <code>sudo less /root/3rd.txt</code>, giving the answer:
+<img src="/images/pkflag.png" alt="flag"></p>
+<p>And with that we helped rick become human again!</p>
+<p>This was a really fun machine easy to get going and learn enumeration for a website, Try Hack Me machines are really fun to get started, as I am doing right now, so expect tons of write ups!</p>
+ </content>
+<p>
+  
+  <a class="blog-tags" href="http://localhost:1313/tags/try-hack-me/">#Try Hack Me</a>&nbsp;&nbsp;
+  
+</p>
+
+  </main>
+  <footer><small>
+  Made with ❤️ and <a href="https://gohugo.io/">Hugo</a>
+  <p xmlns:cc="http://creativecommons.org/ns#">
+    <a
+      href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"
+      target="_blank"
+      rel="license noopener noreferrer"
+      style="display: inline-block"
+      ><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"
+        alt="" /><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"
+        alt="" /><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"
+        alt="" /><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"
+        alt=""
+    /></a>
+  </p>
+</small>
+</footer>
+
+    
+</body>
+
+</html>

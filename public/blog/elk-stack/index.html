@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest" />
+<title>Elk stack once and for all! | crazyc4t&#39;s blog</title>
+<meta name="title" content="Elk stack once and for all!" />
+<meta name="description" content="Using the ELK stack as a SIEM as an example we are going to detect VPN anomalies!" />
+<meta name="keywords" content="SIEM,Kibana,ELK," />
+
+
+
+
+
+
+  
+  <meta property="og:url" content="http://localhost:1313/blog/elk-stack/">
+  <meta property="og:site_name" content="crazyc4t&#39;s blog">
+  <meta property="og:title" content="Elk stack once and for all!">
+  <meta property="og:description" content="Using the ELK stack as a SIEM as an example we are going to detect VPN anomalies!">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2022-12-06T14:34:23-05:00">
+    <meta property="article:modified_time" content="2022-12-06T14:34:23-05:00">
+    <meta property="article:tag" content="SIEM">
+    <meta property="article:tag" content="Kibana">
+    <meta property="article:tag" content="ELK">
+
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Elk stack once and for all!">
+  <meta name="twitter:description" content="Using the ELK stack as a SIEM as an example we are going to detect VPN anomalies!">
+
+
+  
+  
+  <meta itemprop="name" content="Elk stack once and for all!">
+  <meta itemprop="description" content="Using the ELK stack as a SIEM as an example we are going to detect VPN anomalies!">
+  <meta itemprop="datePublished" content="2022-12-06T14:34:23-05:00">
+  <meta itemprop="dateModified" content="2022-12-06T14:34:23-05:00">
+  <meta itemprop="wordCount" content="1004">
+  <meta itemprop="keywords" content="SIEM,Kibana,ELK">
+
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  
+  <link href="/style.min.css" rel="stylesheet">
+
+  
+  <link href="/syntax.min.css" rel="stylesheet">
+
+  
+
+  
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest" />
+</head>
+
+<body>
+  <header><a href="/" class="title"><h1>crazyc4t&#39;s blog</h1></a>
+<nav>
+<a href="/">Home</a>
+
+<a href="/blog/">Blog</a>
+ 
+<a
+  href='mailto:saidneder1@gmail.com?subject=Reply%20to%20"Elk%20stack%20once%20and%20for%20all%21"'
+  >Email</a
+>
+
+<a href="https://crazyc4t.xyz" target="_blank">My links</a>
+<a href="/index.xml">RSS</a>
+
+
+ 
+
+
+ 
+
+
+<a class="disabled" role="link" aria-disabled="true">es 🇪🇨</a>
+  
+</nav>
+</header>
+  <main> 
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest" />
+
+<h1>Elk stack once and for all!</h1>
+<p>
+  <i>
+    <time datetime='2022-12-06' pubdate>
+      2022-12-06
+    </time>
+  </i>
+</p>
+
+<content> <p>Welcome to this quick guide on using the ELK stack, specially Elastic&rsquo;s Kibana interface to search, filter and create visualizations and dashboards, taking as an example the investigation of vpn logs for anomalies.</p>
+<p><img src="/images/elk1.png" alt="elk1"></p>
+<p>Is a collection of different open-source software developed by Elastic, linked together to take data from endpoints (computers, networks, any source in particular) in any format and being able to perform a search, analyze and visualize the data in real-time.</p>
+<p>One works with the other, it&rsquo;s like you have a VR headset without a VR video to watch, or you have a VR video without any VR headset to visualize with, let&rsquo;s look it more in-depth:</p>
+<h2 id="elasticsearch">ElasticSearch</h2>
+<p>Is a full-text search and analytics engine used to store JSON documents, being a critical part since is the component used to store, analyze, perform correlation on the data and so much more, having a RESTfull API to interact with it.</p>
+<h2 id="logstash">Logstash</h2>
+<p>Data processing engine used to take the data the data from different sources, apply a filter or normalize it, and then send it to the destination, being the majority of the cases a elasticsearch database, kibana or a listening port, being separated like this:</p>
+<p><img src="/images/elk2.png" alt="elk2"></p>
+<h3 id="input">Input</h3>
+<p>User defines the source where the data is ingested, while it has a lot of input plugins like azure events, is better to use beats to follow the stack.</p>
+<h3 id="filter">Filter</h3>
+<p>Where the user defines the filter options to normalize the data, for example: age, bytes, clones and more.</p>
+<h3 id="output">Output</h3>
+<p>This is the part where the filtered data is sended to a listening port, elasticsearch database, or kibana.</p>
+<h2 id="beats">Beats</h2>
+<p>Host-based agent (Meaning that is a program that you install or set up for each of your devices) known as data-shippers since it&rsquo;s used to send data from the endpoints to logstash, or elasticsearch, for example all the &ldquo;beats&rdquo; available:</p>
+<p><img src="/images/elk3.png" alt="elk3"></p>
+<h2 id="kibana">Kibana</h2>
+<p>Is a web-based data visualization that works with elasticsearch to analyze, investigate and visualize the data stream in real-time, you can create multiple visualizations, dashboards and specific lookups with KQL (Kibana query language) more on that later.</p>
+<h2 id="how-they-work-together">How they work together</h2>
+<p><img src="/images/elk4.png" alt="elk4"></p>
+<h1 id="getting-our-feets-wet-with-kibana">Getting our feets wet with Kibana</h1>
+<p>This is the discover tab in our Kibana instance, if you have used Splunk before, they are fundamentally the same, and that&rsquo;s why it&rsquo;s going to be easy to get started with, since they are both SIEMs.</p>
+<p><img src="/images/elk5.png" alt="elk5"></p>
+<ol>
+<li><strong>Logs (document):</strong> Each log here is also known as a single document containing information about the event. It shows the fields and values found in that document.</li>
+<li><strong>Fields pane</strong>: Left panel of the interface shows the list of the fields parsed from the logs. We can click on any field to add the field to the filter or remove it from the search.</li>
+<li><strong>Index Pattern:</strong> Let the user select the index pattern from the available list.</li>
+<li><strong>Search bar:</strong> A place where the user adds search queries / applies filters to narrow down the results.</li>
+<li><strong>Time Filter:</strong> We can narrow down results based on the time duration. This tab has many options to select from to filter/limit the logs.</li>
+<li><strong>Time Interval:</strong> This chart shows the event counts over time.</li>
+<li><strong>Inspector:</strong> This tab helps us understand the request Kibana is doing to elasticsearch, by seeing the json structure.</li>
+<li><strong>Application:</strong> Is the name of the application we are using, in this case Discover, we can save our session to return to it later or manage the saved sessions.</li>
+<li><strong>Add filter:</strong> Self-explanatory, it helps us add specific filters with logical operators.</li>
+</ol>
+<p>Our best friend here is the fields pane since it gives us a brief overlook about all the information and helps us to filter them fast.</p>
+<h2 id="kql">KQL</h2>
+<p>The Kibana Query Language is a search query language used to search the ingested logs in the elasticsearch, it does not have tons of features but it is really easy to pick up, another option is the Lucene Query Language (LQL) so is opt to the user.</p>
+<h3 id="free-text-search">Free text search</h3>
+<p>Here you can put any text into the box and it will search it irrespective of the field, for example:</p>
+<p><img src="/images/elk6.png" alt="elk6"></p>
+<p>But what happens if we only search for &ldquo;United&rdquo;?
+<img src="/images/elk7.png" alt="elk7">
+It will not return any result because KQL looks only for the whole term, here is where wildcards come into play.</p>
+<h3 id="wildcards">Wildcards</h3>
+<p>Let&rsquo;s use them! But before that let&rsquo;s do a quick rundown on wildcards:</p>
+<ul>
+<li><code>*</code>: To match any characters and there is <strong>no limit to their number</strong></li>
+<li><code>?</code>: To match any <strong>single</strong> character</li>
+<li><code>[characters]</code>: To match any character <strong>inside</strong> the <code>[]</code></li>
+<li><code>[!characters]</code>: To match any character that is <strong>not inside</strong> the <code>[]</code></li>
+<li><code>{}</code>: To match a group of names/wildcards patterns</li>
+</ul>
+<p>Now knowing wildcards, let&rsquo;s search United* and see the results:</p>
+<p><img src="/images/elk8.png" alt="elk8"></p>
+<h3 id="logical-operators">Logical Operators</h3>
+<p>KQL supports logical operators (AND | OR | NOT), quick examples:</p>
+<h4 id="or">OR</h4>
+<p>Search: <code>&quot;United States&quot; OR &quot;England&quot;</code></p>
+<p><img src="/images/elk9.png" alt="elk9"></p>
+<h4 id="and">AND</h4>
+<p>Search: <code>&quot;United States&quot; AND &quot;Virgina&quot;</code></p>
+<p><img src="/images/elk10.png" alt="elk10"></p>
+<h4 id="not">NOT</h4>
+<p>Search: <code>&quot;United States&quot; AND NOT (&quot;Florida&quot;)</code>, Saying all the results that match United States without florida.</p>
+<p><img src="/images/elk11.png" alt="elk11"></p>
+<h3 id="field-based-search">Field-based search</h3>
+<p>Here you can search for a specific value in a field, using the semicolon &ldquo;:&rdquo; being <code>field:value</code>.</p>
+<p>Look at this example:</p>
+<p><img src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5e8dd9a4a45e18443162feab/room-content/ffbf735277d98273d6229f4d9ee586bf.gif" alt="Kibana gif"></p>
+<p>Kibana automatically will show you available fields and values, making your search easier.</p>
+<h3 id="visualize">Visualize</h3>
+<p>Visualizing is using an built-into kibna elastic application called lens that helps us read with statistics, for example in this image we can view all the connections made to a VPN.</p>
+<p><img src="/images/elk12.png" alt="elk12"></p>
+<p>We can visualize by clicking the wanted field in the fields pane and clicking on visualize:</p>
+<p><img src="/images/elk13.png" alt="elk13"></p>
+<p>We can edit the rules as we want, by clicking the field, in this example the rows top values of usernames:</p>
+<p><img src="/images/elk14.png" alt="elk14"></p>
+<p>There are endless possibilites, you can save them as well and add it to your dashboard.</p>
+<p><img src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5e8dd9a4a45e18443162feab/room-content/334ed7c0a1e727de35844174434fd4fc.gif" alt="Visualization Gif"></p>
+<p>Like so:</p>
+<p><img src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5e8dd9a4a45e18443162feab/room-content/05016a6cc1c12d40b90ce9d290525378.gif" alt="add dashboard"></p>
+<h1 id="where-to-go-from-here">Where to go from here?</h1>
+<ol>
+<li>Put your knowledge to the test with the ItsyBitsy machine, where you will need to investigate an alert by IDS regarding a potential C2 communication, here is the <a href="https://tryhackme.com/room/itsybitsy">link</a></li>
+<li>Set up your own kibana instance with sample data! You can do so with a virtual machine (Ubuntu 22.10 or Debian 11 is perfect) and start playing around!</li>
+<li>Read the <a href="https://www.elastic.co/guide/en/kibana/current/get-started.html">docs</a></li>
+</ol>
+ </content>
+<p>
+  
+  <a class="blog-tags" href="http://localhost:1313/tags/siem/">#SIEM</a>&nbsp;&nbsp;
+  
+  <a class="blog-tags" href="http://localhost:1313/tags/kibana/">#Kibana</a>&nbsp;&nbsp;
+  
+  <a class="blog-tags" href="http://localhost:1313/tags/elk/">#ELK</a>&nbsp;&nbsp;
+  
+</p>
+
+  </main>
+  <footer><small>
+  Made with ❤️ and <a href="https://gohugo.io/">Hugo</a>
+  <p xmlns:cc="http://creativecommons.org/ns#">
+    <a
+      href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"
+      target="_blank"
+      rel="license noopener noreferrer"
+      style="display: inline-block"
+      ><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"
+        alt="" /><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"
+        alt="" /><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"
+        alt="" /><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"
+        alt=""
+    /></a>
+  </p>
+</small>
+</footer>
+
+    
+</body>
+
+</html>

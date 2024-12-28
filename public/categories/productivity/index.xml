@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Productivity on crazyc4t&#39;s blog</title>
+    <link>http://localhost:1313/categories/productivity/</link>
+    <description>Recent content in Productivity on crazyc4t&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 02 Sep 2022 18:45:39 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using namecheap domain with github pages!</title>
+      <link>http://localhost:1313/blog/namecheap/</link>
+      <pubDate>Fri, 02 Sep 2022 18:45:39 -0500</pubDate>
+      <guid>http://localhost:1313/blog/namecheap/</guid>
+      <description>&lt;p&gt;Hello everyone! It&amp;rsquo;s crazyc4t once again, I have some news, I changed my domain! There is no more saidneder.tech, now it&amp;rsquo;s &lt;a href=&#34;https://crazyc4t.xyz&#34;&gt;crazyc4t.xyz&lt;/a&gt; since my saidneder.tech domain was really expensive for renewal and I felt that it was my mistake because of the company that I chose to buy my domain from, that is HostGator, which I totally don&amp;rsquo;t recommend, difficult to use and configure, expensive, and not friendly at all, so instead of renewing my old domain I bought a new one in &lt;a href=&#34;https://namecheap.com&#34;&gt;namecheap.com&lt;/a&gt;! and It was awesome, I deployed my blog to my new domain with https encryption in less than 30 minutes! And that was because of the wait time to generate the security certificate, so in this post am going to show you how to use your domain bought from namecheap with github pages!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LaTeX for humans</title>
+      <link>http://localhost:1313/blog/latexforhumans/</link>
+      <pubDate>Wed, 19 Jan 2022 17:22:31 +0000</pubDate>
+      <guid>http://localhost:1313/blog/latexforhumans/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;This post is going to help you learn \(\LaTeX\) and convert you into a intellectual and scientific professional and by far superior with anyone that shares their report made in word!&lt;/p&gt;&#xA;&lt;p&gt;But before anything&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-all-this-tex-thingy&#34;&gt;What is all this \(\TeX\) thingy?&lt;/h2&gt;&#xA;&lt;p&gt;In summary \(\LaTeX\) is the form of creating a document with the highest quality of typesetting possible, being made with commands you will have to compile it each time to see the result so \(\LaTeX\) isn&amp;rsquo;t a WYSIWYG(what you see is what you get) editor, but don&amp;rsquo;t worry! \(\LaTeX\) is so awesome now that a quick &lt;code&gt;CTRL+S&lt;/code&gt; will compile your result and let you see how you are going on time! so no worries there. The story goes back to 1977 when Donald Knuth understood the need for a high quality typesetting program, and \(\LaTeX\) being still used today shows that is the best tool for it&amp;rsquo;s purpose, although many useful additions have been made and \(\LaTeX\) has evolutionated since then.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vim for everyone!</title>
+      <link>http://localhost:1313/blog/vimforeveryone/</link>
+      <pubDate>Sun, 09 Jan 2022 22:00:04 -0500</pubDate>
+      <guid>http://localhost:1313/blog/vimforeveryone/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;This is a vim-neovim tutorial, is a highly-configurable text editor that you can make it as you wish, and the way to use it is only with the keyboard and keybindings and learning it will improve your productivity at a whole other level, and it is included in every UNIX system and Mac OS, so if you configure servers remotely or work a lot in the terminal is really important to use vim, and you can add plugins and make a lot of cool stuff with it!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

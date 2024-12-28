@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vim on crazyc4t&#39;s blog</title>
+    <link>http://localhost:1313/tags/vim/</link>
+    <description>Recent content in Vim on crazyc4t&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 09 Jan 2022 22:00:04 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vim for everyone!</title>
+      <link>http://localhost:1313/blog/vimforeveryone/</link>
+      <pubDate>Sun, 09 Jan 2022 22:00:04 -0500</pubDate>
+      <guid>http://localhost:1313/blog/vimforeveryone/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;This is a vim-neovim tutorial, is a highly-configurable text editor that you can make it as you wish, and the way to use it is only with the keyboard and keybindings and learning it will improve your productivity at a whole other level, and it is included in every UNIX system and Mac OS, so if you configure servers remotely or work a lot in the terminal is really important to use vim, and you can add plugins and make a lot of cool stuff with it!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

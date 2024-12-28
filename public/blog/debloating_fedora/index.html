@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest" />
+<title>What to do after installing Fedora KDE | crazyc4t&#39;s blog</title>
+<meta name="title" content="What to do after installing Fedora KDE" />
+<meta name="description" content="Welcome again to my blog, it has been a bit of a long time isn&rsquo;t it? But am back once again! And more active than ever so expect so more blogposts coming your way!
+Why am running fedora
+As some of you know, I was using Arch Linux with a window manager or &ldquo;WM&rdquo; for simplicity, (If you want to see my dotfiles, here&rsquo;s the repo) and It was great! But am on a Laptop, and I needed something more easier to setup since I didn&rsquo;t had the time and in some situations where I needed to take my laptop with me I needed to install some packages and read the wiki, etc for order to make a specific printer work, for example, so it wasn&rsquo;t practical and I just needed something that just worked, bleeding-edge, and a distro that had good documentation and promotes new solutions, and there is where Fedora takes place, since I want to learn how to administrate Linux Servers based on Red Hat being the company that sponsors the fedora project, it was a perfect fit for me! So in that way I can learn more about DNF (The package manager), Selinux, BTRFS, ZRAM and all of this greatest and latest tech work!" />
+<meta name="keywords" content="FOSS," />
+
+
+
+
+
+
+  
+  <meta property="og:url" content="http://localhost:1313/blog/debloating_fedora/">
+  <meta property="og:site_name" content="crazyc4t&#39;s blog">
+  <meta property="og:title" content="What to do after installing Fedora KDE">
+  <meta property="og:description" content="Welcome again to my blog, it has been a bit of a long time isn’t it? But am back once again! And more active than ever so expect so more blogposts coming your way!
+Why am running fedora As some of you know, I was using Arch Linux with a window manager or “WM” for simplicity, (If you want to see my dotfiles, here’s the repo) and It was great! But am on a Laptop, and I needed something more easier to setup since I didn’t had the time and in some situations where I needed to take my laptop with me I needed to install some packages and read the wiki, etc for order to make a specific printer work, for example, so it wasn’t practical and I just needed something that just worked, bleeding-edge, and a distro that had good documentation and promotes new solutions, and there is where Fedora takes place, since I want to learn how to administrate Linux Servers based on Red Hat being the company that sponsors the fedora project, it was a perfect fit for me! So in that way I can learn more about DNF (The package manager), Selinux, BTRFS, ZRAM and all of this greatest and latest tech work!">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2022-03-01T20:59:45-05:00">
+    <meta property="article:modified_time" content="2022-03-01T20:59:45-05:00">
+    <meta property="article:tag" content="FOSS">
+
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="What to do after installing Fedora KDE">
+  <meta name="twitter:description" content="Welcome again to my blog, it has been a bit of a long time isn’t it? But am back once again! And more active than ever so expect so more blogposts coming your way!
+Why am running fedora As some of you know, I was using Arch Linux with a window manager or “WM” for simplicity, (If you want to see my dotfiles, here’s the repo) and It was great! But am on a Laptop, and I needed something more easier to setup since I didn’t had the time and in some situations where I needed to take my laptop with me I needed to install some packages and read the wiki, etc for order to make a specific printer work, for example, so it wasn’t practical and I just needed something that just worked, bleeding-edge, and a distro that had good documentation and promotes new solutions, and there is where Fedora takes place, since I want to learn how to administrate Linux Servers based on Red Hat being the company that sponsors the fedora project, it was a perfect fit for me! So in that way I can learn more about DNF (The package manager), Selinux, BTRFS, ZRAM and all of this greatest and latest tech work!">
+
+
+  
+  
+  <meta itemprop="name" content="What to do after installing Fedora KDE">
+  <meta itemprop="description" content="Welcome again to my blog, it has been a bit of a long time isn’t it? But am back once again! And more active than ever so expect so more blogposts coming your way!
+Why am running fedora As some of you know, I was using Arch Linux with a window manager or “WM” for simplicity, (If you want to see my dotfiles, here’s the repo) and It was great! But am on a Laptop, and I needed something more easier to setup since I didn’t had the time and in some situations where I needed to take my laptop with me I needed to install some packages and read the wiki, etc for order to make a specific printer work, for example, so it wasn’t practical and I just needed something that just worked, bleeding-edge, and a distro that had good documentation and promotes new solutions, and there is where Fedora takes place, since I want to learn how to administrate Linux Servers based on Red Hat being the company that sponsors the fedora project, it was a perfect fit for me! So in that way I can learn more about DNF (The package manager), Selinux, BTRFS, ZRAM and all of this greatest and latest tech work!">
+  <meta itemprop="datePublished" content="2022-03-01T20:59:45-05:00">
+  <meta itemprop="dateModified" content="2022-03-01T20:59:45-05:00">
+  <meta itemprop="wordCount" content="864">
+  <meta itemprop="keywords" content="FOSS">
+
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  
+  <link href="/style.min.css" rel="stylesheet">
+
+  
+  <link href="/syntax.min.css" rel="stylesheet">
+
+  
+
+  
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest" />
+</head>
+
+<body>
+  <header><a href="/" class="title"><h1>crazyc4t&#39;s blog</h1></a>
+<nav>
+<a href="/">Home</a>
+
+<a href="/blog/">Blog</a>
+ 
+<a
+  href='mailto:saidneder1@gmail.com?subject=Reply%20to%20"What%20to%20do%20after%20installing%20Fedora%20KDE"'
+  >Email</a
+>
+
+<a href="https://crazyc4t.xyz" target="_blank">My links</a>
+<a href="/index.xml">RSS</a>
+
+
+ 
+
+
+ 
+
+
+<a class="disabled" role="link" aria-disabled="true">es 🇪🇨</a>
+  
+</nav>
+</header>
+  <main> 
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest" />
+
+<h1>What to do after installing Fedora KDE</h1>
+<p>
+  <i>
+    <time datetime='2022-03-01' pubdate>
+      2022-03-01
+    </time>
+  </i>
+</p>
+
+<content> <p>Welcome again to my blog, it has been a bit of a long time isn&rsquo;t it? But am back once again! And more active than ever so expect so more blogposts coming your way!</p>
+<h2 id="why-am-running-fedora">Why am running fedora</h2>
+<p>As some of you know, I was using <a href="https://archlinux.org/">Arch Linux</a> with a window manager or &ldquo;WM&rdquo; for simplicity, (If you want to see my dotfiles, <a href="https://github.com/crazyc4t/dotfiles">here&rsquo;s the repo</a>) and It was great! But am on a Laptop, and I needed something more easier to setup since I didn&rsquo;t had the time and in some situations where I needed to take my laptop with me I needed to install some packages and read the wiki, etc for order to make a specific printer work, for example, so it wasn&rsquo;t practical and I just needed something that just worked, bleeding-edge, and a distro that had good documentation and promotes new solutions, and there is where <a href="https://getfedora.org/">Fedora</a> takes place, since I want to learn how to administrate Linux Servers based on <a href="https://redhat.com">Red Hat</a> being the company that sponsors the fedora project, it was a perfect fit for me! So in that way I can learn more about DNF (The package manager), Selinux, BTRFS, ZRAM and all of this greatest and latest tech work!</p>
+<p>I chose <a href="https://spins.fedoraproject.org/">Fedora KDE Spin</a> and let me tell you it has been really great! I have always been a fan of the KDE desktop and the mix of the two of them is perfect!</p>
+<h2 id="step-1-optimizing-dnf">Step 1: Optimizing DNF</h2>
+<p>This step is to make DNF, the package manager, be as fast as it can and effective as it can too, by editing it&rsquo;s config file, and we are going to append this strings of text in <code>/etc/dnf/dnf.conf</code></p>
+<p>The fastest mirror option is to make sure that DNF checks that it&rsquo;s updating from the fastest repositories, and not the most near ones to you, since am from Ecuador, some of the Ecuadorian repos aren&rsquo;t as fast as the USA ones.</p>
+<p>Max parallel downloads is the amount of files is downloading at the same time, so this setting can depend on your internet connection, if have a great internet connection you can sum up the number a bit more.</p>
+<p>defaultyes is when DNF asks you about your decision (Y/N) if you press enter the default will be yes.</p>
+<p>Keep cache is for the ones that have bad internet connection and if the update or download crashes it has the saved cache of the downloaded packages so you can continue in another time.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl"><span class="nv">fastestmirror</span><span class="o">=</span>True
+</span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="nv">max_parallel_downloads</span><span class="o">=</span><span class="m">5</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="nv">defaultyes</span><span class="o">=</span>True
+</span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="nv">keepcache</span><span class="o">=</span>True
+</span></span></code></pre></div><p>Then we will run <code>sudo dnf up</code> to update the whole system!</p>
+<p>Thanks to <a href="https://www.youtube.com/channel/UCjSEJkpGbcZhvo0lr-44X_w">TechHut</a> for this step since I read it from him.</p>
+<h2 id="step-2-debloating">Step 2: Debloating</h2>
+<p>But KDE, it can be bloated depending of your needs so the first thing I needed to do is debloat it, consisting of removing packages that you are never going to use:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">sudo dnf rm plasma-discover kwrite kontact akregator dragon elisa-player kaddressbook kcharselect kmag kpat kmahjongg kfind kmail kmouth kmines kolourpaint kmousetool konversation korganizer krfb krdc kruler kwrite
+</span></span></code></pre></div><p><strong>Please note, this is depending what you use, I don&rsquo;t use any of this software, if you do don&rsquo;t remove it, read the packages carefully, although the removal of these package will not result in the breakage of the system.</strong></p>
+<h2 id="step-3-setting-up-rpm-fusion">Step 3: Setting up rpm-fusion</h2>
+<p>The repository &ldquo;rpm-fusion&rdquo; is what enables us to install Non-free software, like discord, and spotify:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">sudo dnf install <span class="se">\
+</span></span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="se"></span>  https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-<span class="k">$(</span>rpm -E %fedora<span class="k">)</span>.noarch.rpm
+</span></span><span class="line"><span class="ln">3</span><span class="cl">
+</span></span><span class="line"><span class="ln">4</span><span class="cl"> sudo dnf install <span class="se">\
+</span></span></span><span class="line"><span class="ln">5</span><span class="cl"><span class="se"></span>  https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-<span class="k">$(</span>rpm -E %fedora<span class="k">)</span>.noarch.rpm
+</span></span></code></pre></div><p>After that just <code>sudo dnf up</code> and that is it!</p>
+<h2 id="step-4-loading-up-some-software">Step 4: Loading up some software!</h2>
+<p>Install some software! This is the software I install most of the time, you can take a look if you want:</p>
+<p><strong>This is just my selection of software, the tools I use the most of the time, you should install the software that you use, if not sure just skip this step.</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">sudo dnf in kate alacritty neovim git fish vlc gimp kdenlive texlive-scheme-medium lpf-spotify-client discord keepassxc qbittorrent stacer doas
+</span></span></code></pre></div><p>And if you use Brave browser like me, you can use this code to easily install it:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">sudo dnf install dnf-plugins-core
+</span></span><span class="line"><span class="ln">2</span><span class="cl">
+</span></span><span class="line"><span class="ln">3</span><span class="cl">sudo dnf config-manager --add-repo https://brave-browser-rpm-release.s3.brave.com/x86_64/
+</span></span><span class="line"><span class="ln">4</span><span class="cl">
+</span></span><span class="line"><span class="ln">5</span><span class="cl">sudo rpm --import https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
+</span></span><span class="line"><span class="ln">6</span><span class="cl">
+</span></span><span class="line"><span class="ln">7</span><span class="cl">sudo dnf install brave-browser
+</span></span></code></pre></div><p>If you use zoom and wish to install it, you will need to download the .rpm package from the website linked <a href="https://www.youtube.com/channel/UCjSEJkpGbcZhvo0lr-44X_w">here</a></p>
+<h3 id="setting-up-some-media-codecs">Setting up some media codecs</h3>
+<p>To make everything work properly when talking about videos and music, we are going to install these media codecs:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">sudo dnf install gstreamer1-plugins-<span class="o">{</span>bad-<span class="se">\*</span>,good-<span class="se">\*</span>,base<span class="o">}</span> gstreamer1-plugin-openh264 gstreamer1-libav --exclude<span class="o">=</span>gstreamer1-plugins-bad-free-devel
+</span></span><span class="line"><span class="ln">2</span><span class="cl">
+</span></span><span class="line"><span class="ln">3</span><span class="cl">sudo dnf install lame<span class="se">\*</span> --exclude<span class="o">=</span>lame-devel
+</span></span><span class="line"><span class="ln">4</span><span class="cl">
+</span></span><span class="line"><span class="ln">5</span><span class="cl">sudo dnf group upgrade --with-optional Multimedia
+</span></span></code></pre></div><p>More info <a href="https://docs.fedoraproject.org/en-US/quick-docs/assembly_installing-plugins-for-playing-movies-and-music/">here</a></p>
+<h3 id="cleaning-up">Cleaning up</h3>
+<p>This is as easy as <code>sudo dnf autoremove</code> and/or you can use stacer to clean your system as well.</p>
+<h2 id="outro">Outro</h2>
+<p>This is my quick setup guide of fedora KDE! Probably am going to write a script that automates this process, stay tuned for that, just wanted to say thank you for reading my posts, wishing you all a great start of the month, time to get after it! Love from Ecuador.</p>
+<p>Thanks so much for the fedora&rsquo;s subreddit <a href="https://www.reddit.com/r/Fedora/">r/Fedora</a> helping me to improve my post!</p>
+ </content>
+<p>
+  
+  <a class="blog-tags" href="http://localhost:1313/tags/foss/">#FOSS</a>&nbsp;&nbsp;
+  
+</p>
+
+  </main>
+  <footer><small>
+  Made with ❤️ and <a href="https://gohugo.io/">Hugo</a>
+  <p xmlns:cc="http://creativecommons.org/ns#">
+    <a
+      href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"
+      target="_blank"
+      rel="license noopener noreferrer"
+      style="display: inline-block"
+      ><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"
+        alt="" /><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"
+        alt="" /><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"
+        alt="" /><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"
+        alt=""
+    /></a>
+  </p>
+</small>
+</footer>
+
+    
+</body>
+
+</html>

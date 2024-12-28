@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest" />
+<title>How to code your own discord bot! | crazyc4t&#39;s blog</title>
+<meta name="title" content="How to code your own discord bot!" />
+<meta name="description" content="Patrick Star Bot 📕
+
+
+This is my first time programming a bot on discord with discord.js!
+This bot is about having my classes at my fingertips, so it
+gives links with special commands that facilitate the process.
+You are free to clone the code and use it the way you want!
+You can edit it and make it your own!
+
+Commands
+Prefix: 9
+The prefix means that is the initial character that is used to communicate
+with the bot!" />
+<meta name="keywords" content="Javascript," />
+
+
+
+
+
+
+  
+  <meta property="og:url" content="http://localhost:1313/blog/discordbot/">
+  <meta property="og:site_name" content="crazyc4t&#39;s blog">
+  <meta property="og:title" content="How to code your own discord bot!">
+  <meta property="og:description" content="Patrick Star Bot 📕 This is my first time programming a bot on discord with discord.js! This bot is about having my classes at my fingertips, so it gives links with special commands that facilitate the process. You are free to clone the code and use it the way you want! You can edit it and make it your own!
+Commands Prefix: 9
+The prefix means that is the initial character that is used to communicate with the bot!">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2022-02-11T11:19:06-05:00">
+    <meta property="article:modified_time" content="2022-02-11T11:19:06-05:00">
+    <meta property="article:tag" content="Javascript">
+
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="How to code your own discord bot!">
+  <meta name="twitter:description" content="Patrick Star Bot 📕 This is my first time programming a bot on discord with discord.js! This bot is about having my classes at my fingertips, so it gives links with special commands that facilitate the process. You are free to clone the code and use it the way you want! You can edit it and make it your own!
+Commands Prefix: 9
+The prefix means that is the initial character that is used to communicate with the bot!">
+
+
+  
+  
+  <meta itemprop="name" content="How to code your own discord bot!">
+  <meta itemprop="description" content="Patrick Star Bot 📕 This is my first time programming a bot on discord with discord.js! This bot is about having my classes at my fingertips, so it gives links with special commands that facilitate the process. You are free to clone the code and use it the way you want! You can edit it and make it your own!
+Commands Prefix: 9
+The prefix means that is the initial character that is used to communicate with the bot!">
+  <meta itemprop="datePublished" content="2022-02-11T11:19:06-05:00">
+  <meta itemprop="dateModified" content="2022-02-11T11:19:06-05:00">
+  <meta itemprop="wordCount" content="1408">
+  <meta itemprop="keywords" content="Javascript">
+
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  
+  <link href="/style.min.css" rel="stylesheet">
+
+  
+  <link href="/syntax.min.css" rel="stylesheet">
+
+  
+
+  
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest" />
+</head>
+
+<body>
+  <header><a href="/" class="title"><h1>crazyc4t&#39;s blog</h1></a>
+<nav>
+<a href="/">Home</a>
+
+<a href="/blog/">Blog</a>
+ 
+<a
+  href='mailto:saidneder1@gmail.com?subject=Reply%20to%20"How%20to%20code%20your%20own%20discord%20bot%21"'
+  >Email</a
+>
+
+<a href="https://crazyc4t.xyz" target="_blank">My links</a>
+<a href="/index.xml">RSS</a>
+
+
+ 
+
+
+ 
+
+
+<a class="disabled" role="link" aria-disabled="true">es 🇪🇨</a>
+  
+</nav>
+</header>
+  <main> 
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest" />
+
+<h1>How to code your own discord bot!</h1>
+<p>
+  <i>
+    <time datetime='2022-02-11' pubdate>
+      2022-02-11
+    </time>
+  </i>
+</p>
+
+<content> <h1 id="patrick-star-bot-">Patrick Star Bot 📕</h1>
+<p><img src="https://img.shields.io/github/license/crazyc4t/PatrickStar?color=brightgreen" alt="GitHub License">
+<img src="https://img.shields.io/github/last-commit/crazyc4t/PatrickStar" alt="GitHub last commit"></p>
+<p>This is my first time programming a bot on discord with discord.js!
+This bot is about having my classes at my fingertips, so it
+gives links with special commands that facilitate the process.
+You are free to clone the code and use it the way you want!
+You can edit it and make it your own!</p>
+<p><img src="/images/botdemo.gif" alt="Demo"></p>
+<h2 id="commands">Commands</h2>
+<p><strong>Prefix: 9</strong></p>
+<p>The prefix means that is the initial character that is used to communicate
+with the bot!</p>
+<table>
+  <thead>
+      <tr>
+          <th>Command</th>
+          <th>Functionality</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>9info</td>
+          <td>Information about the project</td>
+      </tr>
+      <tr>
+          <td>9help</td>
+          <td>Shows all the commands available</td>
+      </tr>
+      <tr>
+          <td>9mail</td>
+          <td>Sends a gmail link</td>
+      </tr>
+      <tr>
+          <td>9idukay</td>
+          <td>Sends a idukay link (learning platform from my school)</td>
+      </tr>
+      <tr>
+          <td>9day</td>
+          <td>It shows the classes of the day</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="want-to-edit-it-for-yourself-follow-along">Want to edit it for yourself? Follow along!</h2>
+<p>The code itself is documented so go check it out <a href="bot.js">here!</a></p>
+<p>let&rsquo;s do this step by step!</p>
+<h3 id="requirements">Requirements</h3>
+<ul>
+<li><a href="https://nodejs.org/en/">Node JS</a>
+<ul>
+<li>if you are on linux use this fast command!</li>
+<li>Arch Linux: <code>sudo pacman -S nodejs</code></li>
+<li>Debian/Ubuntu: <code>sudo apt install nodejs</code></li>
+<li>Redhat/Fedora: <code>sudo dnf install nodejs</code></li>
+</ul>
+</li>
+<li><a href="https://www.npmjs.com/">npm</a> (Already a Node JS dependency)</li>
+<li><a href="https://git-scm.com/">git</a> (Already installed on Linux)</li>
+</ul>
+<p>And some knowledge on javascript!</p>
+<p><strong>Guide yourself with the official discord.js <a href="https://discordjs.guide/#before-you-begin">docs</a>!</strong></p>
+<h2 id="before-we-begin">Before we begin</h2>
+<p>We need to clone this repo with this command:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">git clone https://github.com/crazyc4t/PatrickStar.git
+</span></span></code></pre></div><p>And then to install the discord js library with a simple npm command!</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">npm install discord.js
+</span></span></code></pre></div><p>create a new application in the developer portal of discord, <a href="https://discord.com/developers/applications">over here!</a>,
+once you go there create a new app and invite it to your server!</p>
+<p>After that, open the project folder in your favourite text editor and let&rsquo;s start!</p>
+<h3 id="logging-into-discord">Logging into discord</h3>
+<p>Now in your folder project where you have your bot.js file, and create a <code>config.json</code> that is where
+we are going to store sensitive data so we can ignore it in a <code>.gitignore</code> file.</p>
+<p>Then in your config.json should look something like this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="ln">1</span><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl">  <span class="nt">&#34;prefix&#34;</span><span class="p">:</span> <span class="s2">&#34;X&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl">
+</span></span><span class="line"><span class="ln">4</span><span class="cl">  <span class="nt">&#34;token&#34;</span><span class="p">:</span> <span class="s2">&#34;X&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="ln">5</span><span class="cl">
+</span></span><span class="line"><span class="ln">6</span><span class="cl">  <span class="nt">&#34;channelid&#34;</span><span class="p">:</span> <span class="s2">&#34;X&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="ln">7</span><span class="cl">
+</span></span><span class="line"><span class="ln">8</span><span class="cl">  <span class="nt">&#34;guildid&#34;</span><span class="p">:</span> <span class="s2">&#34;X&#34;</span>
+</span></span><span class="line"><span class="ln">9</span><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>What you are going to store:</p>
+<ul>
+<li>Prefix = That is the initial character to know that the message is for your block</li>
+<li>Token = Is your bot discord token, you can copy it from the developer <a href="https://discord.com/developers/applications">portal</a></li>
+<li>ChannelID = Is the channel where your bot is going to reply (usually the spam channel from every server)
+you can find it activating the developer settings in discord&rsquo;s settings and then right-clicking the channel.</li>
+<li>GuildID = Is the server ID</li>
+</ul>
+<p><strong>Now we will start with the javascript Code:</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="c1">// require the discord.js and cron module
+</span></span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="c1"></span><span class="kr">const</span> <span class="nx">Discord</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s2">&#34;discord.js&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl"><span class="kr">const</span> <span class="nx">cron</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s2">&#34;cron&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl"><span class="c1">// create a new Discord client
+</span></span></span><span class="line"><span class="ln"> 6</span><span class="cl"><span class="c1"></span><span class="kr">const</span> <span class="nx">client</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Discord</span><span class="p">.</span><span class="nx">Client</span><span class="p">();</span>
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl"><span class="c1">// remote config file where my data is stored
+</span></span></span><span class="line"><span class="ln"> 9</span><span class="cl"><span class="c1"></span><span class="kr">const</span> <span class="p">{</span> <span class="nx">prefix</span><span class="p">,</span> <span class="nx">token</span><span class="p">,</span> <span class="nx">channelid</span><span class="p">,</span> <span class="nx">guildid</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s2">&#34;./config.json&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">10</span><span class="cl">
+</span></span><span class="line"><span class="ln">11</span><span class="cl"><span class="c1">// When client is ready, run this:
+</span></span></span><span class="line"><span class="ln">12</span><span class="cl"><span class="c1">// This will only run one time after logging in
+</span></span></span><span class="line"><span class="ln">13</span><span class="cl"><span class="c1"></span><span class="nx">client</span><span class="p">.</span><span class="nx">once</span><span class="p">(</span><span class="s2">&#34;ready&#34;</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">14</span><span class="cl">  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sb">`Online as </span><span class="si">${</span><span class="nx">client</span><span class="p">.</span><span class="nx">user</span><span class="p">.</span><span class="nx">tag</span><span class="si">}</span><span class="sb">`</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">15</span><span class="cl">  <span class="nx">client</span><span class="p">.</span><span class="nx">user</span><span class="p">.</span><span class="nx">setActivity</span><span class="p">(</span><span class="s2">&#34;9help&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">16</span><span class="cl">  <span class="kr">const</span> <span class="nx">kalamardo</span> <span class="o">=</span> <span class="nx">client</span><span class="p">.</span><span class="nx">guilds</span><span class="p">.</span><span class="nx">cache</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="nx">guildid</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">17</span><span class="cl">  <span class="kr">const</span> <span class="nx">channel</span> <span class="o">=</span> <span class="nx">kalamardo</span><span class="p">.</span><span class="nx">channels</span><span class="p">.</span><span class="nx">cache</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="nx">channelid</span><span class="p">);</span>
+</span></span></code></pre></div><p>First we start by declaring the variables of the modules we are going to need,
+then we create the discord client with the variable of <code>client</code> and that is what we are going
+to use to refer to discord.</p>
+<p>Then we create the variables from the <code>config.json</code> to use them in the javascript file.
+The <code>client.once</code> is a discord.js function that is going to execute something just once when the bot is once ready,
+as in this bot we use it to tell us that is running with the <code>client.user.tag</code> that is the name of our bot,
+and we declare the variables of the channel where we want to send the messages.</p>
+<h3 id="setting-up-cron">Setting up Cron</h3>
+<p>Cron is a npm library that allows us to run something on scheadule, we will use it
+to notify us everytime we have class!</p>
+<ul>
+<li><a href="https://www.npmjs.com/package/cron">docs</a></li>
+</ul>
+<p>to install it we need to execute:</p>
+<p><code>npm install cron</code></p>
+<p>Now we are going to create every cron job to run when the bot once log in:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="kr">const</span> <span class="nx">notificationclass</span> <span class="o">=</span> <span class="sb">`You have class! GO NOW </span><span class="si">${</span><span class="nx">idukay</span><span class="si">}</span><span class="sb">`</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl"><span class="kr">const</span> <span class="nx">classbreak</span> <span class="o">=</span> <span class="s2">&#34;You have a break right now, patience and be calm, enjoy!&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl"><span class="c1">// send a message if it is the time specified.
+</span></span></span><span class="line"><span class="ln"> 5</span><span class="cl"><span class="c1"></span><span class="kd">let</span> <span class="nx">classnotification1</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">cron</span><span class="p">.</span><span class="nx">CronJob</span><span class="p">(</span><span class="s2">&#34;00 00 13 * * 1-5&#34;</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">  <span class="nx">channel</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="nx">notificationclass</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl"><span class="p">});</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl"><span class="kd">let</span> <span class="nx">classnotification2</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">cron</span><span class="p">.</span><span class="nx">CronJob</span><span class="p">(</span><span class="s2">&#34;00 35 13 * * 1-5&#34;</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">10</span><span class="cl">  <span class="nx">channel</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="nx">notificationclass</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">11</span><span class="cl"><span class="p">});</span>
+</span></span><span class="line"><span class="ln">12</span><span class="cl">
+</span></span><span class="line"><span class="ln">13</span><span class="cl"><span class="kd">let</span> <span class="nx">classnotification3</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">cron</span><span class="p">.</span><span class="nx">CronJob</span><span class="p">(</span><span class="s2">&#34;00 10 14 * * 1-5&#34;</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">14</span><span class="cl">  <span class="nx">channel</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="nx">notificationclass</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">15</span><span class="cl"><span class="p">});</span>
+</span></span><span class="line"><span class="ln">16</span><span class="cl">
+</span></span><span class="line"><span class="ln">17</span><span class="cl"><span class="kd">let</span> <span class="nx">classnotification4</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">cron</span><span class="p">.</span><span class="nx">CronJob</span><span class="p">(</span><span class="s2">&#34;00 45 14 * * 1-5&#34;</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">18</span><span class="cl">  <span class="nx">channel</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="nx">classbreak</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">19</span><span class="cl"><span class="p">});</span>
+</span></span><span class="line"><span class="ln">20</span><span class="cl">
+</span></span><span class="line"><span class="ln">21</span><span class="cl"><span class="kd">let</span> <span class="nx">classnotification5</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">cron</span><span class="p">.</span><span class="nx">CronJob</span><span class="p">(</span><span class="s2">&#34;00 00 15 * * 1-5&#34;</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">22</span><span class="cl">  <span class="nx">channel</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="nx">notificationclass</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">23</span><span class="cl"><span class="p">});</span>
+</span></span><span class="line"><span class="ln">24</span><span class="cl">
+</span></span><span class="line"><span class="ln">25</span><span class="cl"><span class="kd">let</span> <span class="nx">classnotification6</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">cron</span><span class="p">.</span><span class="nx">CronJob</span><span class="p">(</span><span class="s2">&#34;00 35 15 * * 1-5&#34;</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">26</span><span class="cl">  <span class="nx">channel</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="nx">notificationclass</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">27</span><span class="cl"><span class="p">});</span>
+</span></span><span class="line"><span class="ln">28</span><span class="cl">
+</span></span><span class="line"><span class="ln">29</span><span class="cl"><span class="kd">let</span> <span class="nx">classnotification7</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">cron</span><span class="p">.</span><span class="nx">CronJob</span><span class="p">(</span><span class="s2">&#34;00 10 16 * * 1-5&#34;</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">30</span><span class="cl">  <span class="nx">channel</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="nx">notificationclass</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">31</span><span class="cl"><span class="p">});</span>
+</span></span><span class="line"><span class="ln">32</span><span class="cl">
+</span></span><span class="line"><span class="ln">33</span><span class="cl"><span class="kd">let</span> <span class="nx">classnotification8</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">cron</span><span class="p">.</span><span class="nx">CronJob</span><span class="p">(</span><span class="s2">&#34;00 45 16 * * 1-5&#34;</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">34</span><span class="cl">  <span class="nx">channel</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="nx">classbreak</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">35</span><span class="cl"><span class="p">});</span>
+</span></span><span class="line"><span class="ln">36</span><span class="cl">
+</span></span><span class="line"><span class="ln">37</span><span class="cl"><span class="kd">let</span> <span class="nx">classnotification9</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">cron</span><span class="p">.</span><span class="nx">CronJob</span><span class="p">(</span><span class="s2">&#34;00 00 17 * * 1-5&#34;</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">38</span><span class="cl">  <span class="nx">channel</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="nx">notificationclass</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">39</span><span class="cl"><span class="p">});</span>
+</span></span><span class="line"><span class="ln">40</span><span class="cl">
+</span></span><span class="line"><span class="ln">41</span><span class="cl"><span class="kd">let</span> <span class="nx">classnotification10</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">cron</span><span class="p">.</span><span class="nx">CronJob</span><span class="p">(</span><span class="s2">&#34;00 35 17 * * 1-5&#34;</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">42</span><span class="cl">  <span class="nx">channel</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span>
+</span></span><span class="line"><span class="ln">43</span><span class="cl">    <span class="sb">`You have ended your classes for today! enjoy the rest of your day`</span>
+</span></span><span class="line"><span class="ln">44</span><span class="cl">  <span class="p">);</span>
+</span></span><span class="line"><span class="ln">45</span><span class="cl"><span class="p">});</span>
+</span></span><span class="line"><span class="ln">46</span><span class="cl">
+</span></span><span class="line"><span class="ln">47</span><span class="cl"><span class="c1">// When you want to start it, use:
+</span></span></span><span class="line"><span class="ln">48</span><span class="cl"><span class="c1"></span><span class="nx">classnotification1</span><span class="p">.</span><span class="nx">start</span><span class="p">();</span>
+</span></span><span class="line"><span class="ln">49</span><span class="cl"><span class="nx">classnotification2</span><span class="p">.</span><span class="nx">start</span><span class="p">();</span>
+</span></span><span class="line"><span class="ln">50</span><span class="cl"><span class="nx">classnotification3</span><span class="p">.</span><span class="nx">start</span><span class="p">();</span>
+</span></span><span class="line"><span class="ln">51</span><span class="cl"><span class="nx">classnotification4</span><span class="p">.</span><span class="nx">start</span><span class="p">();</span>
+</span></span><span class="line"><span class="ln">52</span><span class="cl"><span class="nx">classnotification5</span><span class="p">.</span><span class="nx">start</span><span class="p">();</span>
+</span></span><span class="line"><span class="ln">53</span><span class="cl"><span class="nx">classnotification6</span><span class="p">.</span><span class="nx">start</span><span class="p">();</span>
+</span></span><span class="line"><span class="ln">54</span><span class="cl"><span class="nx">classnotification7</span><span class="p">.</span><span class="nx">start</span><span class="p">();</span>
+</span></span><span class="line"><span class="ln">55</span><span class="cl"><span class="nx">classnotification8</span><span class="p">.</span><span class="nx">start</span><span class="p">();</span>
+</span></span><span class="line"><span class="ln">56</span><span class="cl"><span class="nx">classnotification9</span><span class="p">.</span><span class="nx">start</span><span class="p">();</span>
+</span></span><span class="line"><span class="ln">57</span><span class="cl"><span class="nx">classnotification10</span><span class="p">.</span><span class="nx">start</span><span class="p">();</span>
+</span></span><span class="line"><span class="ln">58</span><span class="cl"><span class="p">});</span>
+</span></span><span class="line"><span class="ln">59</span><span class="cl">
+</span></span><span class="line"><span class="ln">60</span><span class="cl"><span class="c1">// login to Discord with token
+</span></span></span><span class="line"><span class="ln">61</span><span class="cl"><span class="c1"></span><span class="nx">client</span><span class="p">.</span><span class="nx">login</span><span class="p">(</span><span class="nx">token</span><span class="p">);</span>
+</span></span></code></pre></div><p>As you see the cronjob format of time is:</p>
+<ul>
+<li>Seconds: 0-59</li>
+<li>Minutes: 0-59</li>
+<li>Hours: 0-23</li>
+<li>Day of Month: 1-31</li>
+<li>Months: 0-11 (Jan-Dec)</li>
+<li>Day of Week: 0-6 (Sun-Sat)</li>
+</ul>
+<p>So right now is where you want to edit to your school scheadule and your own messages!
+Try it to be useful (like the zoom link of the class for example) so it can save you some time!
+After that, we login to discord with the <code>client.login(token);</code> function.</p>
+<h3 id="create-reply-comments">Create reply comments</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="nx">client</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s2">&#34;message&#34;</span><span class="p">,</span> <span class="p">(</span><span class="nx">message</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="nx">message</span><span class="p">.</span><span class="nx">content</span> <span class="o">===</span> <span class="sb">`</span><span class="si">${</span><span class="nx">prefix</span><span class="si">}</span><span class="sb">help`</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">    <span class="c1">// reply in the same channel from it was sent
+</span></span></span><span class="line"><span class="ln"> 4</span><span class="cl"><span class="c1"></span>    <span class="nx">message</span><span class="p">.</span><span class="nx">channel</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="nx">help</span><span class="p">());</span>
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">    <span class="c1">// you concatenate messages with the else if block
+</span></span></span><span class="line"><span class="ln"> 7</span><span class="cl"><span class="c1"></span>  <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">message</span><span class="p">.</span><span class="nx">content</span> <span class="o">===</span> <span class="sb">`</span><span class="si">${</span><span class="nx">prefix</span><span class="si">}</span><span class="sb">calendar`</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">  <span class="nx">message</span><span class="p">.</span><span class="nx">channel</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="sb">`There you go! </span><span class="si">${</span><span class="nx">calendar</span><span class="si">}</span><span class="sb">`</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">  <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">message</span><span class="p">.</span><span class="nx">content</span> <span class="o">===</span> <span class="sb">`</span><span class="si">${</span><span class="nx">prefix</span><span class="si">}</span><span class="sb">idukay`</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">10</span><span class="cl">  <span class="nx">message</span><span class="p">.</span><span class="nx">channel</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="sb">`Voila! </span><span class="si">${</span><span class="nx">idukay</span><span class="si">}</span><span class="sb">`</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">11</span><span class="cl">  <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">message</span><span class="p">.</span><span class="nx">content</span> <span class="o">===</span> <span class="sb">`</span><span class="si">${</span><span class="nx">prefix</span><span class="si">}</span><span class="sb">mail`</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">12</span><span class="cl">  <span class="nx">message</span><span class="p">.</span><span class="nx">channel</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="sb">`Sent! </span><span class="si">${</span><span class="nx">gmail</span><span class="si">}</span><span class="sb">`</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">13</span><span class="cl">  <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">message</span><span class="p">.</span><span class="nx">content</span> <span class="o">===</span> <span class="sb">`</span><span class="si">${</span><span class="nx">prefix</span><span class="si">}</span><span class="sb">day`</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">14</span><span class="cl">  <span class="nx">message</span><span class="p">.</span><span class="nx">channel</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="sb">`Today&#39;s scheadule: </span><span class="si">${</span><span class="nx">days</span><span class="p">[</span><span class="nx">today</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span><span class="si">}</span><span class="sb">`</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">15</span><span class="cl">  <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">message</span><span class="p">.</span><span class="nx">content</span> <span class="o">===</span> <span class="sb">`</span><span class="si">${</span><span class="nx">prefix</span><span class="si">}</span><span class="sb">info`</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="ln">16</span><span class="cl">  <span class="nx">message</span><span class="p">.</span><span class="nx">channel</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span>
+</span></span><span class="line"><span class="ln">17</span><span class="cl">    <span class="sb">`This was made by Said Neder\nGithub: </span><span class="si">${</span><span class="nx">github</span><span class="si">}</span><span class="sb">\nDiscord: </span><span class="si">${</span><span class="nx">discordid</span><span class="si">}</span><span class="sb">`</span>
+</span></span><span class="line"><span class="ln">18</span><span class="cl">   <span class="p">);</span>
+</span></span><span class="line"><span class="ln">19</span><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="ln">20</span><span class="cl"><span class="p">});</span>
+</span></span></code></pre></div><p>First we use the <code>client.on()</code> function to listen to new messages to do something about it,
+which in this case is to reply to the messages.</p>
+<p>And then we use a big if/else block to control the flow of the program, there is where we decide
+the messages that we are going to listen, to reply them.</p>
+<h3 id="finally-running-the-bot">Finally running the bot!</h3>
+<p>And to see your final project use this commnad:
+<code>node bot.js</code>
+Since this runs in the back end, and we use node for that, and enjoy your new bot!</p>
+<p>But it will only run if you are running the task, if you want to have it live 24/7 we have a
+extra step!</p>
+<h3 id="setting-up-the-bot-live-on-heroku-optional">Setting up the bot live on heroku! (optional)</h3>
+<p>We will go straight to the chase my boi!</p>
+<p>First we need to create in our file a git repo, we do that with:</p>
+<p><code>git init</code></p>
+<p>Then, we create a <code>Procfile</code> inside of our folder project with this text:</p>
+<pre tabindex="0"><code class="language-Procfile" data-lang="Procfile">worker: npm start
+</code></pre><p>And that means that the heroku server is going to execute the code in a form of a worker, not as a webpage.</p>
+<p>And now we add everything to git:</p>
+<p><code>git add .</code></p>
+<p>And then we commit the files added:</p>
+<p><code>git commit -m &quot;deployment&quot;</code></p>
+<p>Now we need to create a heroku account and create a new app <a href="https://www.heroku.com/">over here!</a></p>
+<p>After that we download the <a href="https://devcenter.heroku.com/articles/heroku-cli">heroku cli</a> in our system,
+when that is done we login into the cli with the command</p>
+<p><code>heroku login</code>
+And after that we just push it to heroku!</p>
+<p><code>git push heroku main</code></p>
+<p>When that is done we go into the dashboard &gt; resources and deactivate the web dyno by just clicking edit and switching off the slide,
+and now we turn on the worker that should appear, now it should be left like this</p>
+<p><img src="/images/botheroku.png" alt="image example"></p>
+<p>And after that you are done!
+Hope that you enjoyed the guide!</p>
+ </content>
+<p>
+  
+  <a class="blog-tags" href="http://localhost:1313/tags/javascript/">#Javascript</a>&nbsp;&nbsp;
+  
+</p>
+
+  </main>
+  <footer><small>
+  Made with ❤️ and <a href="https://gohugo.io/">Hugo</a>
+  <p xmlns:cc="http://creativecommons.org/ns#">
+    <a
+      href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"
+      target="_blank"
+      rel="license noopener noreferrer"
+      style="display: inline-block"
+      ><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"
+        alt="" /><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"
+        alt="" /><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"
+        alt="" /><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"
+        alt=""
+    /></a>
+  </p>
+</small>
+</footer>
+
+    
+</body>
+
+</html>

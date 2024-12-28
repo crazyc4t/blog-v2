@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kibana on crazyc4t&#39;s blog</title>
+    <link>http://localhost:1313/tags/kibana/</link>
+    <description>Recent content in Kibana on crazyc4t&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 06 Dec 2022 14:34:23 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/kibana/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Elk stack once and for all!</title>
+      <link>http://localhost:1313/blog/elk-stack/</link>
+      <pubDate>Tue, 06 Dec 2022 14:34:23 -0500</pubDate>
+      <guid>http://localhost:1313/blog/elk-stack/</guid>
+      <description>&lt;p&gt;Welcome to this quick guide on using the ELK stack, specially Elastic&amp;rsquo;s Kibana interface to search, filter and create visualizations and dashboards, taking as an example the investigation of vpn logs for anomalies.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/elk1.png&#34; alt=&#34;elk1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Is a collection of different open-source software developed by Elastic, linked together to take data from endpoints (computers, networks, any source in particular) in any format and being able to perform a search, analyze and visualize the data in real-time.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

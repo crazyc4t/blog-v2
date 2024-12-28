@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest" />
+<title>How to play Overwatch 2 in linux | crazyc4t&#39;s blog</title>
+<meta name="title" content="How to play Overwatch 2 in linux" />
+<meta name="description" content="This guide will help you install all the requirements for playing Overwatch 2 on linux." />
+<meta name="keywords" content="FOSS," />
+
+
+
+
+
+
+  
+  <meta property="og:url" content="http://localhost:1313/blog/overwatch2/">
+  <meta property="og:site_name" content="crazyc4t&#39;s blog">
+  <meta property="og:title" content="How to play Overwatch 2 in linux">
+  <meta property="og:description" content="This guide will help you install all the requirements for playing Overwatch 2 on linux.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2022-10-08T13:07:44-05:00">
+    <meta property="article:modified_time" content="2022-10-08T13:07:44-05:00">
+    <meta property="article:tag" content="FOSS">
+
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="How to play Overwatch 2 in linux">
+  <meta name="twitter:description" content="This guide will help you install all the requirements for playing Overwatch 2 on linux.">
+
+
+  
+  
+  <meta itemprop="name" content="How to play Overwatch 2 in linux">
+  <meta itemprop="description" content="This guide will help you install all the requirements for playing Overwatch 2 on linux.">
+  <meta itemprop="datePublished" content="2022-10-08T13:07:44-05:00">
+  <meta itemprop="dateModified" content="2022-10-08T13:07:44-05:00">
+  <meta itemprop="wordCount" content="451">
+  <meta itemprop="keywords" content="FOSS">
+
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  
+  <link href="/style.min.css" rel="stylesheet">
+
+  
+  <link href="/syntax.min.css" rel="stylesheet">
+
+  
+
+  
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest" />
+</head>
+
+<body>
+  <header><a href="/" class="title"><h1>crazyc4t&#39;s blog</h1></a>
+<nav>
+<a href="/">Home</a>
+
+<a href="/blog/">Blog</a>
+ 
+<a
+  href='mailto:saidneder1@gmail.com?subject=Reply%20to%20"How%20to%20play%20Overwatch%202%20in%20linux"'
+  >Email</a
+>
+
+<a href="https://crazyc4t.xyz" target="_blank">My links</a>
+<a href="/index.xml">RSS</a>
+
+
+ 
+
+
+ 
+
+
+<a class="disabled" role="link" aria-disabled="true">es 🇪🇨</a>
+  
+</nav>
+</header>
+  <main> 
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest" />
+
+<h1>How to play Overwatch 2 in linux</h1>
+<p>
+  <i>
+    <time datetime='2022-10-08' pubdate>
+      2022-10-08
+    </time>
+  </i>
+</p>
+
+<content> <p>Hello guys! First of all, thanks for reading my blog, overwatch 2 has been released and it&rsquo;s time for us to try it!</p>
+<p>Playing it on linux is really simple, so feel free to follow along!</p>
+<p>I&rsquo;m using arch linux when following this guide, if you are not running arch linux as your linux distribution, don&rsquo;t worry! Just make sure everything is up-to-date with your system.</p>
+<h2 id="installing-the-requirements">Installing the requirements</h2>
+<p>First of all we need to install:</p>
+<ul>
+<li>Lutris</li>
+<li>Wine</li>
+<li>Drivers</li>
+</ul>
+<p>Lutris is a free and open source software that let us play windows games in linux by using &ldquo;wine&rdquo;.</p>
+<p>We can install lutris pretty easily, I will leave a guide for all linux distributions <a href="https://lutris.net/downloads">here.</a></p>
+<p>For drivers and wine <a href="https://lutris.net">lutris</a> has documentation on the topic, you can read <a href="https://github.com/lutris/docs/blob/master/WineDependencies.md">here</a> for wine dependencies and <a href="https://github.com/lutris/docs/blob/master/InstallingDrivers.md">here</a> for drivers.</p>
+<h2 id="installing-battle-net">Installing Battle Net</h2>
+<p>This step is very easy, we need to open lutris, click in the &ldquo;runner&rdquo; section the little drop-down box besides wine:</p>
+<p><img src="/images/winesection.png" alt="winesection"></p>
+<p>Install &ldquo;overwatch2-caffe&rdquo; wine runner, since it&rsquo;s the runner we are going to use for installing battle.net:</p>
+<p><img src="/images/wineinstall.png" alt="wineinstall"></p>
+<p>Then we can go to <a href="https://lutris.net/games/battlenet/">lutris website</a> and install battle.net by clicking the &ldquo;install&rdquo; button on the webpage, if that doesn&rsquo;t work, you can go to the search bar inside lutris and search for battle.net, after that you can let it install.</p>
+<p>Follow the installation wizard of battle.net, <strong>disable the check-box of auto-starting battle.net when the computer starts</strong> and when it prompts you to login, do not login yet, just close the program and let the lutris installation wizard finish.</p>
+<h3 id="using-caffe-runner">Using caffe runner</h3>
+<p>When finishing the installation, you need to select battle.net, then press on the up-arrow button besides the &ldquo;play&rdquo; button:</p>
+<p><img src="/images/runner.png" alt="configure"></p>
+<p>After that press configure, under the &ldquo;runner&rdquo; tab, there is the &ldquo;wine version&rdquo; that will be &ldquo;overwatch2-caffe&rdquo;, if it does not show in the selection, please read carefully again on how to install runners under the <a href="/blog/overwatch2/#installing-battle-net">Installing Battle net</a>
+<img src="/images/runnertab.png" alt="runnertab"></p>
+<p>After selecting that runner, run battle.net and install overwatch and happy gaming!</p>
+<h2 id="compiling-shaders">Compiling shaders&hellip;</h2>
+<p>If you feel that overwatch is slow and noticed the sentence &ldquo;compiling shaders&hellip;&rdquo; in the under left corner, it&rsquo;s because wine is compiling shaders as it says, meaning that is loading graphics for the game to be smooth, so if you just wait around 2-3 minutes it will be gone and the game will be smooth.</p>
+<p><strong>Remember</strong> the game compatibility in linux is on early stage, so is normal for the game to be sometimes a bit buggy or does it no look that good, but the situation will improve rapidly over time, but right now enjoy!</p>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<ul>
+<li>Battle.net is not starting?!
+<ul>
+<li>Check you are using the caffe runner, if it keeps happening, disable the fsync setting under the runner tab.</li>
+</ul>
+</li>
+</ul>
+ </content>
+<p>
+  
+  <a class="blog-tags" href="http://localhost:1313/tags/foss/">#FOSS</a>&nbsp;&nbsp;
+  
+</p>
+
+  </main>
+  <footer><small>
+  Made with ❤️ and <a href="https://gohugo.io/">Hugo</a>
+  <p xmlns:cc="http://creativecommons.org/ns#">
+    <a
+      href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"
+      target="_blank"
+      rel="license noopener noreferrer"
+      style="display: inline-block"
+      ><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"
+        alt="" /><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"
+        alt="" /><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"
+        alt="" /><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"
+        alt=""
+    /></a>
+  </p>
+</small>
+</footer>
+
+    
+</body>
+
+</html>

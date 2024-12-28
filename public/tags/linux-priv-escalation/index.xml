@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux Priv Escalation on crazyc4t&#39;s blog</title>
+    <link>http://localhost:1313/tags/linux-priv-escalation/</link>
+    <description>Recent content in Linux Priv Escalation on crazyc4t&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 06 Nov 2022 08:42:00 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/linux-priv-escalation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mr Robot CTF</title>
+      <link>http://localhost:1313/blog/mrrobot/</link>
+      <pubDate>Sun, 06 Nov 2022 08:42:00 -0500</pubDate>
+      <guid>http://localhost:1313/blog/mrrobot/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/mrrobot.png&#34; alt=&#34;head&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Welcome to a new machine walkthrough!&lt;/p&gt;&#xA;&lt;p&gt;Now it&amp;rsquo;s the time for this awesome machine that is the &lt;a href=&#34;https://tryhackme.com/room/mrrobot&#34;&gt;Mr Robot&lt;/a&gt; room in Try Hack Me!&lt;/p&gt;&#xA;&lt;h2 id=&#34;enumeration&#34;&gt;Enumeration&lt;/h2&gt;&#xA;&lt;p&gt;First my own methodology that I&amp;rsquo;m working with is to make Nmap scans, while doing some gobuster&amp;rsquo;s directories discoveries, so let&amp;rsquo;s go step by step.&lt;/p&gt;&#xA;&lt;h3 id=&#34;nmap&#34;&gt;Nmap&lt;/h3&gt;&#xA;&lt;p&gt;&lt;code&gt;sudo nmap -sS -Pn -T5 -p- -vvv --open 10.10.112.68 -oG allPorts&lt;/code&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/mrrobot1.png&#34; alt=&#34;mrrobot1&#34;&gt;&#xA;With the &lt;code&gt;-vvv&lt;/code&gt; triple verbosity flag we know already open ports without the scan being finished, giving us a bit of time to work.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

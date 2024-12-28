@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest" />
+<title>Vim for everyone! | crazyc4t&#39;s blog</title>
+<meta name="title" content="Vim for everyone!" />
+<meta name="description" content="Intro
+This is a vim-neovim tutorial, is a highly-configurable text editor that you can make it as you wish, and the way to use it is only with the keyboard and keybindings and learning it will improve your productivity at a whole other level, and it is included in every UNIX system and Mac OS, so if you configure servers remotely or work a lot in the terminal is really important to use vim, and you can add plugins and make a lot of cool stuff with it!" />
+<meta name="keywords" content="Vim," />
+
+
+
+
+
+
+  
+  <meta property="og:url" content="http://localhost:1313/blog/vimforeveryone/">
+  <meta property="og:site_name" content="crazyc4t&#39;s blog">
+  <meta property="og:title" content="Vim for everyone!">
+  <meta property="og:description" content="Intro This is a vim-neovim tutorial, is a highly-configurable text editor that you can make it as you wish, and the way to use it is only with the keyboard and keybindings and learning it will improve your productivity at a whole other level, and it is included in every UNIX system and Mac OS, so if you configure servers remotely or work a lot in the terminal is really important to use vim, and you can add plugins and make a lot of cool stuff with it!">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2022-01-09T22:00:04-05:00">
+    <meta property="article:modified_time" content="2022-01-09T22:00:04-05:00">
+    <meta property="article:tag" content="Vim">
+
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Vim for everyone!">
+  <meta name="twitter:description" content="Intro This is a vim-neovim tutorial, is a highly-configurable text editor that you can make it as you wish, and the way to use it is only with the keyboard and keybindings and learning it will improve your productivity at a whole other level, and it is included in every UNIX system and Mac OS, so if you configure servers remotely or work a lot in the terminal is really important to use vim, and you can add plugins and make a lot of cool stuff with it!">
+
+
+  
+  
+  <meta itemprop="name" content="Vim for everyone!">
+  <meta itemprop="description" content="Intro This is a vim-neovim tutorial, is a highly-configurable text editor that you can make it as you wish, and the way to use it is only with the keyboard and keybindings and learning it will improve your productivity at a whole other level, and it is included in every UNIX system and Mac OS, so if you configure servers remotely or work a lot in the terminal is really important to use vim, and you can add plugins and make a lot of cool stuff with it!">
+  <meta itemprop="datePublished" content="2022-01-09T22:00:04-05:00">
+  <meta itemprop="dateModified" content="2022-01-09T22:00:04-05:00">
+  <meta itemprop="wordCount" content="1082">
+  <meta itemprop="keywords" content="Vim">
+
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  
+  <link href="/style.min.css" rel="stylesheet">
+
+  
+  <link href="/syntax.min.css" rel="stylesheet">
+
+  
+
+  
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest" />
+</head>
+
+<body>
+  <header><a href="/" class="title"><h1>crazyc4t&#39;s blog</h1></a>
+<nav>
+<a href="/">Home</a>
+
+<a href="/blog/">Blog</a>
+ 
+<a
+  href='mailto:saidneder1@gmail.com?subject=Reply%20to%20"Vim%20for%20everyone%21"'
+  >Email</a
+>
+
+<a href="https://crazyc4t.xyz" target="_blank">My links</a>
+<a href="/index.xml">RSS</a>
+
+
+ 
+
+
+ 
+
+
+<a class="disabled" role="link" aria-disabled="true">es 🇪🇨</a>
+  
+</nav>
+</header>
+  <main> 
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest" />
+
+<h1>Vim for everyone!</h1>
+<p>
+  <i>
+    <time datetime='2022-01-09' pubdate>
+      2022-01-09
+    </time>
+  </i>
+</p>
+
+<content> <h2 id="intro">Intro</h2>
+<p>This is a vim-neovim tutorial, is a highly-configurable text editor that you can make it as you wish, and the way to use it is only with the keyboard and keybindings and learning it will improve your productivity at a whole other level, and it is included in every UNIX system and Mac OS, so if you configure servers remotely or work a lot in the terminal is really important to use vim, and you can add plugins and make a lot of cool stuff with it!</p>
+<h2 id="10-installing-vim">1.0 Installing vim</h2>
+<p>The first step into the rabbit hole, here it goes!</p>
+<p><strong>Debian/Ubuntu</strong>
+<code>sudo apt in vim</code></p>
+<p><strong>Fedora/RHEL</strong>
+<code>sudo dnf in vim</code></p>
+<p><strong>Arch Linux</strong>
+<code>sudo pacman -S vim</code></p>
+<h2 id="11-vim-modes">1.1 Vim modes</h2>
+<p>Vim has three modes and each one of the three you can escape them with ESC:</p>
+<ul>
+<li>Normal mode: You use it to navegate in the editor, you should be in this mode the most of the time.</li>
+<li>Insert mode: In this mode you can type text into the file, type <code>I</code> to enter insert mode.</li>
+<li>Visual mode: In this mode you can select large chunks of text, to copy, paste, cut, etc&hellip;</li>
+</ul>
+<h2 id="12-quitting-vim">1.2 Quitting vim</h2>
+<p>There are different ways of quitting vim, but these are the most important:</p>
+<ul>
+<li><code>:q!</code> = Quit and don&rsquo;t save changes</li>
+<li><code>:q</code> = Quit</li>
+<li><code>:wq</code>= Write and quit</li>
+<li><code>:x</code> = Exits the file, if the file has changes it will save them.</li>
+</ul>
+<h2 id="13-useful-shortcuts-to-use">1.3 Useful shortcuts to use</h2>
+<ul>
+<li>To quickly go to the initial character of the line = <code>0</code></li>
+<li>To go to the first line of the document = <code>gg</code></li>
+<li>To go to the last line of the document = <code>G</code> (shift+g)</li>
+<li>To go to a particular line of the document = <code>10G</code> (10 is the number of the line you want to go)</li>
+<li>To go to the most near parenthesis use = <code>%</code></li>
+<li>To execute a command inside vim = <code>:!neofetch</code></li>
+<li>Vim can help you if you don&rsquo;t remember a command! just use <code>ctrl+d</code> when writing a command, for example you want to write and quit but don&rsquo;t remember how, just press the inital letter and then <code>ctrl+d</code> the <code>:w</code></li>
+</ul>
+<h2 id="14-deleting-undoing-and-redoing">1.4 Deleting, undoing and redoing!</h2>
+<ul>
+<li>To delete the character that the cursor is selecting = <code>x</code>
+if you want to delete more than one character you can by doing so = <code>4x</code> (Knowing that the 4 is the quantity of characters you want to be deleted)</li>
+<li>To undo what you did use = <code>u</code></li>
+<li>The same principal tackles undo with multiple times = <code>3u</code></li>
+<li>To redo, just use = <code>ctrl+r</code></li>
+<li>To delete word by word use = <code>dw</code></li>
+<li>To delete line by line use = <code>dd</code></li>
+<li>To delete backawards word use = <code>db</code></li>
+<li>To delete from the cursor until the end of the line use = <code>D</code></li>
+</ul>
+<h2 id="15-navigating-more-in-depth">1.5 Navigating more in-depth</h2>
+<ul>
+<li>To navigate word by word use = <code>w</code> (ends of the beginning of each word)</li>
+<li>If we want to navigate word by word ending on the last character of the word use = <code>e</code></li>
+<li>Mix it up! navigate between quantity of words = <code>3w</code></li>
+<li>Go backawards = <code>b</code></li>
+<li>Navigate by visual lines! Vim is made to navigate (h,j,k,l) in logical lines, where it&rsquo;s supposed to help when inserting, but if you want to navigate for reading use = <code>gj</code> (gj being visual down)</li>
+<li>Using <code>w</code>, <code>b</code> and <code>e</code> more in-depth: when navigating with this keys, the commas, parenthesis, etc, are counted as a word, but if we don&rsquo;t want that just capitalize it! = <code>W</code> <code>B</code> <code>E</code></li>
+<li>Forwarding to navigate to a specific character, for example move the cursor where a letter t is = <code>f</code> example = <code>ft</code></li>
+<li>Forwarding in reverse! = <code>F</code></li>
+<li>Forwarding until, forward until you find a certain character, landing the cursor before that character = <code>t</code></li>
+<li>Forwarding until in reverse = <code>T</code></li>
+<li>Inserting without caring about blank characters, inserting to the first non-blank character = <code>shift+i</code></li>
+<li>Navigating between blocks of text, being next blank line use = <code>}</code></li>
+<li>Navigating between blocks of text, being the previous blank line use = <code>{</code></li>
+</ul>
+<h2 id="16-replacing-appending-and-changing">1.6 Replacing, appending and changing</h2>
+<ul>
+<li>You mistyped something? Not to worry with the replace function! it replaces the character where the cursor is and then press it replacement = <code>r</code></li>
+<li>If you want to change something, you can with the change function, where it changes the character before the cursor, for example let&rsquo;s change a word, remember to exit out of insert mode, let&rsquo;s use = <code>ce</code></li>
+<li>Let&rsquo;s change a entire line! use = <code>C</code></li>
+<li>Let&rsquo;s append to a line, since inserting is always before the cursor, append to insert after the cursor = <code>a</code></li>
+<li>Append to the last character of the line = <code>shift+a</code></li>
+<li>To delete a character and start in insert mode use = <code>s</code></li>
+<li>To delete a entire line and start in insert mode use = <code>S</code></li>
+<li>To insert on the line below use = <code>o</code></li>
+<li>To insert on the line above being on the line that you are use = <code>O</code></li>
+</ul>
+<h2 id="17-yanking-and-putting">1.7 Yanking and putting!</h2>
+<ul>
+<li>Yanking is copying in vim, so for example let&rsquo;s yank a word! = <code>yw</code></li>
+<li>What if you want to delete something and put in on other line? = <code>p</code> (For example, you delete a line <code>dd</code> and put it three lines below <code>p</code>)</li>
+<li>Yank from the cursor till the end of the line with = <code>Y</code></li>
+<li>Remember that cutting in vim is just deleting and putting it</li>
+</ul>
+<h2 id="18-searching-in-your-document">1.8 Searching in your document</h2>
+<ul>
+<li>Press <code>/</code> and then the word you want to search!</li>
+<li>If you have multiple instances of that word, you can use <code>n</code> to go next or
+<code>N</code> to go backawards</li>
+<li>When searching to go back to where you started, and if pressed again to the beginning of the file, use = <code>ctrl+o</code></li>
+<li>If I want to go forward where I was use = <code>ctrl+i</code></li>
+<li>Replace your finding! press <code>:</code> and then <code>s/finding/replacement/g</code> following the formula!</li>
+<li>Replacing in the entire document, formula = <code>%s/finding/replacement/g</code></li>
+<li>Replacing in the entire document with a yes/no prompt = <code>%s/oldstring/newstring/gc</code></li>
+<li>Replacing each instance between lines = <code>3,9s/oldstring/newstring/g</code></li>
+</ul>
+<h2 id="reminder-remember-to-mix-it-up">Reminder: Remember to mix it up!</h2>
+<p>You can mix numbers with hotkeys, for example if you want to delete 10 lines you aren&rsquo;t going to press <code>dd</code> 10 times, just multiply it! <code>10dd</code> and so on and so forth with the others! Mix it up!</p>
+<h2 id="outro">Outro</h2>
+<p>This is for now! these are the essential vim hotkeys and commands to survive and to start into the rabbit hole, expect more of vim in my blog thank you for reading!</p>
+ </content>
+<p>
+  
+  <a class="blog-tags" href="http://localhost:1313/tags/vim/">#Vim</a>&nbsp;&nbsp;
+  
+</p>
+
+  </main>
+  <footer><small>
+  Made with ❤️ and <a href="https://gohugo.io/">Hugo</a>
+  <p xmlns:cc="http://creativecommons.org/ns#">
+    <a
+      href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"
+      target="_blank"
+      rel="license noopener noreferrer"
+      style="display: inline-block"
+      ><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"
+        alt="" /><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"
+        alt="" /><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"
+        alt="" /><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"
+        alt=""
+    /></a>
+  </p>
+</small>
+</footer>
+
+    
+</body>
+
+</html>

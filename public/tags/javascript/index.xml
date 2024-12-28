@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript on crazyc4t&#39;s blog</title>
+    <link>http://localhost:1313/tags/javascript/</link>
+    <description>Recent content in Javascript on crazyc4t&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 11 Feb 2022 11:19:06 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to code your own discord bot!</title>
+      <link>http://localhost:1313/blog/discordbot/</link>
+      <pubDate>Fri, 11 Feb 2022 11:19:06 -0500</pubDate>
+      <guid>http://localhost:1313/blog/discordbot/</guid>
+      <description>&lt;h1 id=&#34;patrick-star-bot-&#34;&gt;Patrick Star Bot 📕&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://img.shields.io/github/license/crazyc4t/PatrickStar?color=brightgreen&#34; alt=&#34;GitHub License&#34;&gt;&#xA;&lt;img src=&#34;https://img.shields.io/github/last-commit/crazyc4t/PatrickStar&#34; alt=&#34;GitHub last commit&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is my first time programming a bot on discord with discord.js!&#xA;This bot is about having my classes at my fingertips, so it&#xA;gives links with special commands that facilitate the process.&#xA;You are free to clone the code and use it the way you want!&#xA;You can edit it and make it your own!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/botdemo.gif&#34; alt=&#34;Demo&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;commands&#34;&gt;Commands&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Prefix: 9&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The prefix means that is the initial character that is used to communicate&#xA;with the bot!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

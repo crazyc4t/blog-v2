@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest" />
+<title>How to customize your terminal! | crazyc4t&#39;s blog</title>
+<meta name="title" content="How to customize your terminal!" />
+<meta name="description" content="Intro
+This is a tutorial-type of blogpost, sorry for being away so long, but there&rsquo;s a lot of blogposts coming to your way, so expect some new ones!
+What we want to achieve in this tutorial:
+
+To have a fast terminal emulator
+To have a better shell with auto-completition
+To have a cool-looking with color scheme terminal
+
+So let&rsquo;s start with that!
+Alacritty, the fastest openGL terminal emulator
+Alacritty is the fastest terminal emulator out there, and the best of all is that is cross-platform! so you can install it on windows too! Although this guide is more toward linux users but if you are here from windows you can follow along too!" />
+<meta name="keywords" content="Terminal," />
+
+
+
+
+
+
+  
+  <meta property="og:url" content="http://localhost:1313/blog/niceterminal/">
+  <meta property="og:site_name" content="crazyc4t&#39;s blog">
+  <meta property="og:title" content="How to customize your terminal!">
+  <meta property="og:description" content="Intro This is a tutorial-type of blogpost, sorry for being away so long, but there’s a lot of blogposts coming to your way, so expect some new ones!
+What we want to achieve in this tutorial:
+To have a fast terminal emulator To have a better shell with auto-completition To have a cool-looking with color scheme terminal So let’s start with that!
+Alacritty, the fastest openGL terminal emulator Alacritty is the fastest terminal emulator out there, and the best of all is that is cross-platform! so you can install it on windows too! Although this guide is more toward linux users but if you are here from windows you can follow along too!">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2021-11-14T19:55:31-05:00">
+    <meta property="article:modified_time" content="2021-11-14T19:55:31-05:00">
+    <meta property="article:tag" content="Terminal">
+
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="How to customize your terminal!">
+  <meta name="twitter:description" content="Intro This is a tutorial-type of blogpost, sorry for being away so long, but there’s a lot of blogposts coming to your way, so expect some new ones!
+What we want to achieve in this tutorial:
+To have a fast terminal emulator To have a better shell with auto-completition To have a cool-looking with color scheme terminal So let’s start with that!
+Alacritty, the fastest openGL terminal emulator Alacritty is the fastest terminal emulator out there, and the best of all is that is cross-platform! so you can install it on windows too! Although this guide is more toward linux users but if you are here from windows you can follow along too!">
+
+
+  
+  
+  <meta itemprop="name" content="How to customize your terminal!">
+  <meta itemprop="description" content="Intro This is a tutorial-type of blogpost, sorry for being away so long, but there’s a lot of blogposts coming to your way, so expect some new ones!
+What we want to achieve in this tutorial:
+To have a fast terminal emulator To have a better shell with auto-completition To have a cool-looking with color scheme terminal So let’s start with that!
+Alacritty, the fastest openGL terminal emulator Alacritty is the fastest terminal emulator out there, and the best of all is that is cross-platform! so you can install it on windows too! Although this guide is more toward linux users but if you are here from windows you can follow along too!">
+  <meta itemprop="datePublished" content="2021-11-14T19:55:31-05:00">
+  <meta itemprop="dateModified" content="2021-11-14T19:55:31-05:00">
+  <meta itemprop="wordCount" content="1074">
+  <meta itemprop="keywords" content="Terminal">
+
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  
+  <link href="/style.min.css" rel="stylesheet">
+
+  
+  <link href="/syntax.min.css" rel="stylesheet">
+
+  
+
+  
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest" />
+</head>
+
+<body>
+  <header><a href="/" class="title"><h1>crazyc4t&#39;s blog</h1></a>
+<nav>
+<a href="/">Home</a>
+
+<a href="/blog/">Blog</a>
+ 
+<a
+  href='mailto:saidneder1@gmail.com?subject=Reply%20to%20"How%20to%20customize%20your%20terminal%21"'
+  >Email</a
+>
+
+<a href="https://crazyc4t.xyz" target="_blank">My links</a>
+<a href="/index.xml">RSS</a>
+
+
+ 
+
+
+ 
+
+
+<a class="disabled" role="link" aria-disabled="true">es 🇪🇨</a>
+  
+</nav>
+</header>
+  <main> 
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest" />
+
+<h1>How to customize your terminal!</h1>
+<p>
+  <i>
+    <time datetime='2021-11-14' pubdate>
+      2021-11-14
+    </time>
+  </i>
+</p>
+
+<content> <h2 id="intro">Intro</h2>
+<p>This is a tutorial-type of blogpost, sorry for being away so long, but there&rsquo;s a lot of blogposts coming to your way, so expect some new ones!</p>
+<p>What we want to achieve in this tutorial:</p>
+<ul>
+<li>To have a fast terminal emulator</li>
+<li>To have a better shell with auto-completition</li>
+<li>To have a cool-looking with color scheme terminal</li>
+</ul>
+<p>So let&rsquo;s start with that!</p>
+<h2 id="alacritty-the-fastest-opengl-terminal-emulator">Alacritty, the fastest openGL terminal emulator</h2>
+<p><a href="https://github.com/alacritty/alacritty">Alacritty</a> is the fastest terminal emulator out there, and the best of all is that is cross-platform! so you can install it on windows too! Although this guide is more toward linux users but if you are here from windows you can follow along too!</p>
+<h2 id="fish-the-friendly-interactive-shell-from-the-90s">Fish, the friendly interactive shell from the 90&rsquo;s</h2>
+<p>Fish is a smart and user-friendly shell for every unix-like OS, it offers:</p>
+<ul>
+<li>Autosuggestions</li>
+<li>Sane Scripting</li>
+<li>Tab completitions and syntax highlighting</li>
+</ul>
+<p>And a lot more! Overall, is the way to go, time to go <a href="https://fishshell.com">fishing</a></p>
+<h2 id="neovim-hyperextensible-vim-based-text-editor">Neovim, Hyperextensible Vim-based text editor</h2>
+<p><a href="https://neovim.io/">Neovim</a> being a <a href="https://www.vim.org/">vim</a>-based editor is not for everyone, since navigating vim is not the easiest task of all, but neovim what it does is to take vim (VI-iMproved, since vim is a fork from VI) and eliminates all the deprecated and legacy packages (30% less code base than vim), then improve it even more with plugins, extensions, and more!</p>
+<p>Is a beutiful text-editor, one of my favourites!</p>
+<h2 id="nerd-fonts-the-best-fonts-to-code-with">Nerd Fonts, the best fonts to code with!</h2>
+<p><a href="https://www.nerdfonts.com/#home">Nerd fonts</a> are fonts designed for coding in mind, and it has icons as text that is the awesome part, since we are going to use those icons for customizing our terminal</p>
+<h2 id="bat-the-cat-with-wings">Bat, the cat with wings!</h2>
+<p><code>bat</code> is <code>cat</code> but with super powers, with syntax highlighting and supports git integration, and it displays it&rsquo;s text in a well readable format, once you go bat you never go back!</p>
+<h2 id="install-alacritty-fish-bat-and-neovim">Install Alacritty, Fish, Bat and Neovim</h2>
+<p><strong>Ubuntu/Debian:</strong></p>
+<p><code>sudo add-apt-repository ppa:aslatter/ppa &amp;&amp; sudo add-apt-repository ppa:fish-shell/release-3</code></p>
+<p>That is to add the <em>personal package archives</em>, that is a personal repository where you can download software from the owner of the software, being the latest version and overall better, in this case from alacritty and fish devs.</p>
+<p><code>sudo apt update &amp;&amp; sudo apt install alacritty bat fish neovim -y</code></p>
+<p>This will refresh the repo list and install it!</p>
+<p><strong>Fedora/RHEL:</strong>
+<code>sudo dnf install alacritty bat fish neovim</code> Easy isn&rsquo;t it?</p>
+<p><strong>Arch (btw):</strong>
+<code>sudo pacman -S alacritty bat fish neovim</code> You already know.</p>
+<p><strong>Uninstalling Alacritty, Fish, Bat and Neovim</strong></p>
+<p>This is the case if you don&rsquo;t like it</p>
+<p><strong>Ubuntu/Debian:</strong></p>
+<p>First, remove the software:
+<code>sudo apt remove --auto-remove alacritty fish bat neovim</code></p>
+<p>Then, the <em>PPA&rsquo;s</em>
+<code>sudo add-apt-repository --remove ppa:aslatter/ppa &amp;&amp; sudo add-apt-repository --remove ppa:fish-shell/release-3</code></p>
+<p><strong>Fedora/RHEL:</strong></p>
+<p><code>sudo dnf remove fish alacritty bat neovim</code></p>
+<p><strong>Arch (btw):</strong></p>
+<p><code>sudo pacman -R alacritty fish bat neovim</code></p>
+<h2 id="installing-nerd-fonts">Installing nerd fonts!</h2>
+<p>You can go to the official nerd fonts <a href="https://github.com/ryanoasis/nerd-fonts">github</a> and follow their installation guides or use a <strong>bash script</strong> I created for installing nerd fonts the easiest way!</p>
+<p><strong>Download the bash script</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">wget https://github.com/DarthNeder/nerdy/releases/download/v1.0.0/nerdy <span class="o">&amp;&amp;</span> bash nerdy -h
+</span></span></code></pre></div><p>This will download the script and run the help command so you can see the usage of the script</p>
+<p><strong>Install some fonts!</strong>
+Is just as easy to</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">bash nerdy RobotoMono
+</span></span></code></pre></div><p>This means you are installing RobotoMono nerd font on your system!
+If you are not sure which one to install you can go to <a href="https://www.programmingfonts.org/">programming fonts</a> and decide which one to install!</p>
+<p>After installing nerd fonts, neovim, fish and alacritty, time to configurate them!</p>
+<h2 id="hacking-alacritty">Hacking alacritty</h2>
+<p>First in your new terminal we are going to create the <code>alacritty.yml</code> file, this is the configuration file,
+and is going to be store in <code>~/.config/alacritty/</code>.</p>
+<p>So now this is what we are going to do:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">$ <span class="nb">cd</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl">$ mkdir .config/alacritty
+</span></span><span class="line"><span class="ln">3</span><span class="cl">$ nvim .config/alacritty/alacritty.yml
+</span></span></code></pre></div><p>(The first <code>cd</code> was for changing directories to your home folder)</p>
+<p>Now, before we get into the code, just for reference you can see this alacritty <a href="https://github.com/tmcdonell/config-alacritty">config</a> to take for example, and the <a href="https://wiki.archlinux.org/title/Alacritty">arch wiki</a> since it has a nice page explaining about it.</p>
+<p><strong>Running fish as our default shell</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="ln">1</span><span class="cl"><span class="nt">shell</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="w">	</span><span class="nt">program</span><span class="p">:</span><span class="w"> </span><span class="l">/bin/fish</span><span class="w">
+</span></span></span></code></pre></div><p>This means everytime alacritty is going to open is running the fish shell.</p>
+<p>Remember the <a href="https://www.redhat.com/en/topics/automation/what-is-yaml">YAML</a> Is the format used to configure alacritty, in key-value pairs.</p>
+<p><strong>Running nerd fonts as our default font</strong></p>
+<p>First of all check the family name of your font by running this command:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">fc-list <span class="p">|</span> grep Hack
+</span></span></code></pre></div><p>Being <strong>Hack</strong> replaced with your font&rsquo;s name, once you know that time to create the font table like this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="nt">font</span><span class="p">:</span><span class="w">  
+</span></span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="w">  </span><span class="nt">normal</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="ln"> 3</span><span class="cl"><span class="w">		</span><span class="nt">family</span><span class="p">:</span><span class="w"> </span><span class="l">RobotoMono Nerd Font</span><span class="w">
+</span></span></span><span class="line"><span class="ln"> 4</span><span class="cl"><span class="w">    </span><span class="nt">style</span><span class="p">:</span><span class="w"> </span><span class="l">Regular</span><span class="w">
+</span></span></span><span class="line"><span class="ln"> 5</span><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="ln"> 6</span><span class="cl"><span class="w">  </span><span class="nt">bold</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="ln"> 7</span><span class="cl"><span class="w">    </span><span class="nt">family</span><span class="p">:</span><span class="w"> </span><span class="l">RobotoMono Nerd Font</span><span class="w">
+</span></span></span><span class="line"><span class="ln"> 8</span><span class="cl"><span class="w">    </span><span class="nt">style</span><span class="p">:</span><span class="w"> </span><span class="l">Bold</span><span class="w">
+</span></span></span><span class="line"><span class="ln"> 9</span><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="w">  </span><span class="nt">italic</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="ln">11</span><span class="cl"><span class="w">    </span><span class="nt">family</span><span class="p">:</span><span class="w"> </span><span class="l">RobotoMono Nerd Font</span><span class="w">
+</span></span></span><span class="line"><span class="ln">12</span><span class="cl"><span class="w">    </span><span class="nt">style</span><span class="p">:</span><span class="w"> </span><span class="l">Italic</span><span class="w">
+</span></span></span><span class="line"><span class="ln">13</span><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="ln">14</span><span class="cl"><span class="w">  </span><span class="nt">bold_italic</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="ln">15</span><span class="cl"><span class="w">    </span><span class="nt">family</span><span class="p">:</span><span class="w"> </span><span class="l">RobotoMono Nerd Font</span><span class="w">
+</span></span></span><span class="line"><span class="ln">16</span><span class="cl"><span class="w">    </span><span class="nt">style</span><span class="p">:</span><span class="w"> </span><span class="l">Bold Italic</span><span class="w">
+</span></span></span><span class="line"><span class="ln">17</span><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="ln">18</span><span class="cl"><span class="w">  </span><span class="nt">size</span><span class="p">:</span><span class="w"> </span><span class="m">9.0</span><span class="w">
+</span></span></span></code></pre></div><p>Specifying the font family and the size of it, if you want, (I know you do) we can specify the padding of the prompt and the background opacity of it</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="ln">1</span><span class="cl"><span class="nt">background_opacity</span><span class="p">:</span><span class="w"> </span><span class="m">0.75</span><span class="w">
+</span></span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="w"></span><span class="nt">window</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="w">  </span><span class="nt">padding</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="w">    </span><span class="nt">x</span><span class="p">:</span><span class="w"> </span><span class="m">4</span><span class="w">
+</span></span></span><span class="line"><span class="ln">5</span><span class="cl"><span class="w">    </span><span class="nt">y</span><span class="p">:</span><span class="w"> </span><span class="m">4</span><span class="w">
+</span></span></span></code></pre></div><p>And we are done with alacritty and fish!</p>
+<p>Now we are going to install <a href="https://starship.rs/">starship</a> to beutify our prompt and plus is written on rust!, then there&rsquo;s <a href="https://the.exa.website/">exa</a> that is the new replacement for the <code>ls</code> command.</p>
+<h2 id="installing-starship-and-exa">Installing starship and exa</h2>
+<p><strong>For starship:</strong></p>
+<p>Just run the installer:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">bash sh -c <span class="s2">&#34;</span><span class="k">$(</span>curl -fsSL https://starship.rs/install.sh<span class="k">)</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="c1">## if you are in fish, if not just run without `bash` at the beginning</span>
+</span></span></code></pre></div><p>and add this to the config.fish, that is located in <code>~/.config/fish/config.fish</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fish" data-lang="fish"><span class="line"><span class="ln">1</span><span class="cl"><span class="c"># ~/.config/fish/config.fish
+</span></span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="c"></span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="nf">starship</span> init <span class="nb">fish</span> <span class="o">|</span> <span class="nb">source</span>
+</span></span></code></pre></div><p><strong>Side note:</strong></p>
+<p>If you don&rsquo;t like the &ldquo;welcome to the fish shell!&rdquo; greeting message, you can delete it by so:</p>
+<p><code>set -g fish_greeting</code></p>
+<p>writing this in <code>config.fish</code>.</p>
+<p>More <a href="https://fishshell.com/docs/current/faq.html">docs</a>&hellip;</p>
+<p><strong>For exa:</strong></p>
+<p><strong>Ubuntu/Debian:</strong> <code>sudo apt install exa</code></p>
+<p><strong>RHEL/Fedora:</strong> <code>sudo dnf install exa</code></p>
+<p><strong>Arch Linux (btw):</strong> <code>sudo pacman -S exa</code></p>
+<p>And that&rsquo;s it! now you have starship and exa in your terminal!</p>
+<p><strong>Now replace <code>cat</code> and <code>ls</code> with aliases:</strong></p>
+<p>In <code>config.fish</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fish" data-lang="fish"><span class="line"><span class="ln">1</span><span class="cl"><span class="nb">alias </span><span class="nv">ls</span><span class="o">=</span><span class="s2">&#34;exa -la --icons&#34;</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="nb">alias </span><span class="nv">cat</span><span class="o">=</span><span class="s2">&#34;bat&#34;</span>
+</span></span></code></pre></div><p>Now last but not least final step&hellip;</p>
+<h2 id="theming-alacritty">Theming Alacritty</h2>
+<p>First of all let&rsquo;s install <a href="https://nodejs.org/en/">node.js</a> that makes running javascript on the backend possible!</p>
+<p><strong>Ubuntu/Debian:</strong> <code>sudo apt install nodejs</code></p>
+<p><strong>RHEL/Fedora:</strong> <code>sudo dnf install nodejs</code></p>
+<p><strong>Arch (Btw):</strong> <code>sudo pacman -s nodejs</code></p>
+<p>Now let&rsquo;s install <a href="https://github.com/rajasegar/alacritty-themes">alacritty themes</a>!</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">npm i -g alacritty-themes
+</span></span></code></pre></div><p>If you get npm errors, try to update npm:
+<code>npm update</code></p>
+<p><strong>Now the moment of truth!</strong></p>
+<p>Just run the script!
+<code>alacritty-themes</code></p>
+<p>and select the theme you like and enjoy!</p>
+<p><img src="/images/terminal.png" alt="Custom terminal"></p>
+ </content>
+<p>
+  
+  <a class="blog-tags" href="http://localhost:1313/tags/terminal/">#Terminal</a>&nbsp;&nbsp;
+  
+</p>
+
+  </main>
+  <footer><small>
+  Made with ❤️ and <a href="https://gohugo.io/">Hugo</a>
+  <p xmlns:cc="http://creativecommons.org/ns#">
+    <a
+      href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"
+      target="_blank"
+      rel="license noopener noreferrer"
+      style="display: inline-block"
+      ><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"
+        alt="" /><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"
+        alt="" /><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"
+        alt="" /><img
+        style="
+          height: 22px !important;
+          margin-left: 3px;
+          vertical-align: text-bottom;
+        "
+        src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"
+        alt=""
+    /></a>
+  </p>
+</small>
+</footer>
+
+    
+</body>
+
+</html>

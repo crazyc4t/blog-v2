@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminal on crazyc4t&#39;s blog</title>
+    <link>http://localhost:1313/tags/terminal/</link>
+    <description>Recent content in Terminal on crazyc4t&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 14 Nov 2021 19:55:31 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to customize your terminal!</title>
+      <link>http://localhost:1313/blog/niceterminal/</link>
+      <pubDate>Sun, 14 Nov 2021 19:55:31 -0500</pubDate>
+      <guid>http://localhost:1313/blog/niceterminal/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;This is a tutorial-type of blogpost, sorry for being away so long, but there&amp;rsquo;s a lot of blogposts coming to your way, so expect some new ones!&lt;/p&gt;&#xA;&lt;p&gt;What we want to achieve in this tutorial:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;To have a fast terminal emulator&lt;/li&gt;&#xA;&lt;li&gt;To have a better shell with auto-completition&lt;/li&gt;&#xA;&lt;li&gt;To have a cool-looking with color scheme terminal&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;So let&amp;rsquo;s start with that!&lt;/p&gt;&#xA;&lt;h2 id=&#34;alacritty-the-fastest-opengl-terminal-emulator&#34;&gt;Alacritty, the fastest openGL terminal emulator&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/alacritty/alacritty&#34;&gt;Alacritty&lt;/a&gt; is the fastest terminal emulator out there, and the best of all is that is cross-platform! so you can install it on windows too! Although this guide is more toward linux users but if you are here from windows you can follow along too!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

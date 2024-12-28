@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on crazyc4t&#39;s blog</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on crazyc4t&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 22 Mar 2023 11:59:47 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go</title>
+      <link>http://localhost:1313/tags/go/</link>
+      <pubDate>Wed, 22 Mar 2023 11:59:47 -0500</pubDate>
+      <guid>http://localhost:1313/tags/go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Juniper</title>
+      <link>http://localhost:1313/tags/juniper/</link>
+      <pubDate>Fri, 20 Jan 2023 11:14:01 -0500</pubDate>
+      <guid>http://localhost:1313/tags/juniper/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ELK</title>
+      <link>http://localhost:1313/tags/elk/</link>
+      <pubDate>Tue, 06 Dec 2022 14:34:23 -0500</pubDate>
+      <guid>http://localhost:1313/tags/elk/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kibana</title>
+      <link>http://localhost:1313/tags/kibana/</link>
+      <pubDate>Tue, 06 Dec 2022 14:34:23 -0500</pubDate>
+      <guid>http://localhost:1313/tags/kibana/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SIEM</title>
+      <link>http://localhost:1313/tags/siem/</link>
+      <pubDate>Tue, 06 Dec 2022 14:34:23 -0500</pubDate>
+      <guid>http://localhost:1313/tags/siem/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux Priv Escalation</title>
+      <link>http://localhost:1313/tags/linux-priv-escalation/</link>
+      <pubDate>Sun, 06 Nov 2022 08:42:00 -0500</pubDate>
+      <guid>http://localhost:1313/tags/linux-priv-escalation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Try Hack Me</title>
+      <link>http://localhost:1313/tags/try-hack-me/</link>
+      <pubDate>Sun, 06 Nov 2022 08:42:00 -0500</pubDate>
+      <guid>http://localhost:1313/tags/try-hack-me/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Splunk</title>
+      <link>http://localhost:1313/tags/splunk/</link>
+      <pubDate>Tue, 18 Oct 2022 13:03:09 -0500</pubDate>
+      <guid>http://localhost:1313/tags/splunk/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FOSS</title>
+      <link>http://localhost:1313/tags/foss/</link>
+      <pubDate>Sat, 08 Oct 2022 13:07:44 -0500</pubDate>
+      <guid>http://localhost:1313/tags/foss/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blog</title>
+      <link>http://localhost:1313/tags/blog/</link>
+      <pubDate>Fri, 02 Sep 2022 18:45:39 -0500</pubDate>
+      <guid>http://localhost:1313/tags/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Advice</title>
+      <link>http://localhost:1313/tags/advice/</link>
+      <pubDate>Wed, 29 Jun 2022 23:32:56 -0500</pubDate>
+      <guid>http://localhost:1313/tags/advice/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Certs</title>
+      <link>http://localhost:1313/tags/certs/</link>
+      <pubDate>Wed, 20 Apr 2022 12:10:12 -0500</pubDate>
+      <guid>http://localhost:1313/tags/certs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Javascript</title>
+      <link>http://localhost:1313/tags/javascript/</link>
+      <pubDate>Fri, 11 Feb 2022 11:19:06 -0500</pubDate>
+      <guid>http://localhost:1313/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LaTeX</title>
+      <link>http://localhost:1313/tags/latex/</link>
+      <pubDate>Wed, 19 Jan 2022 17:22:31 +0000</pubDate>
+      <guid>http://localhost:1313/tags/latex/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vim</title>
+      <link>http://localhost:1313/tags/vim/</link>
+      <pubDate>Sun, 09 Jan 2022 22:00:04 -0500</pubDate>
+      <guid>http://localhost:1313/tags/vim/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Terminal</title>
+      <link>http://localhost:1313/tags/terminal/</link>
+      <pubDate>Sun, 14 Nov 2021 19:55:31 -0500</pubDate>
+      <guid>http://localhost:1313/tags/terminal/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Certs on crazyc4t&#39;s blog</title>
+    <link>http://localhost:1313/tags/certs/</link>
+    <description>Recent content in Certs on crazyc4t&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 20 Apr 2022 12:10:12 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/certs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I passed the compTIA A&#43;</title>
+      <link>http://localhost:1313/blog/a&#43;/</link>
+      <pubDate>Wed, 20 Apr 2022 12:10:12 -0500</pubDate>
+      <guid>http://localhost:1313/blog/a&#43;/</guid>
+      <description>&lt;h1 id=&#34;guide-to-conquer-comptia-a&#34;&gt;Guide to conquer compTIA A+&lt;/h1&gt;&#xA;&lt;p&gt;This is the guide to conquer compTIA A+ made by Said Neder, this is what am doing to study and get certified!&lt;/p&gt;&#xA;&lt;p&gt;Here I documented everything that I learned when preparing for the exam, this are my notes to study and remember what I did, and I passed!&lt;/p&gt;&#xA;&lt;p&gt;Am taking this exam on 11th and 13th of april, 2022!&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;What is compTIA A+?&lt;/strong&gt;&#xA;Is the Computing Technology Industry Association, being vendor-neutral, they have been around since the 80&amp;rsquo;s.&#xA;The A+ is a test designed for IT technicians anywhere from 6-9 months of experience, being one of the most popular certification.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Networking on crazyc4t&#39;s blog</title>
+    <link>http://localhost:1313/categories/networking/</link>
+    <description>Recent content in Networking on crazyc4t&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 20 Jan 2023 11:14:01 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/networking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I am studying for my JNCIA-JunOS and why you should do too!</title>
+      <link>http://localhost:1313/blog/jncia/</link>
+      <pubDate>Fri, 20 Jan 2023 11:14:01 -0500</pubDate>
+      <guid>http://localhost:1313/blog/jncia/</guid>
+      <description>&lt;h1 id=&#34;my-journey-into-getting-jncia-junos-certified&#34;&gt;My journey into getting JNCIA-JunOS certified!&lt;/h1&gt;&#xA;&lt;p&gt;Hello guys it&amp;rsquo;s crazyc4t once again, first of all happy new years!&lt;/p&gt;&#xA;&lt;p&gt;I know I haven&amp;rsquo;t been active lately but this will change, starting with my lack of networking skills, I must need to admit, I&amp;rsquo;m not a fan of networking&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Why are you writing this blogpost then?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;First, let me get you in the context&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;my-story-with-networking&#34;&gt;My story with networking&lt;/h2&gt;&#xA;&lt;p&gt;As I said, I&amp;rsquo;m not a huge fan of networking, doesn&amp;rsquo;t mean that I don&amp;rsquo;t like it, it&amp;rsquo;s just that I prefer doing other things like ethical hacking and learn more about linux tho, but at one stage of ethical hacking I noticed the lack of my networking skills, since I understood everything that I was doing but very broadly, and I wanted to understand more deeply, so that&amp;rsquo;s why I went my way to get the CCNA, started with &lt;a href=&#34;https://www.youtube.com/watch?v=H8W9oMNSuwo&amp;amp;list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ&#34;&gt;Jeremy&amp;rsquo;s IT labs course&lt;/a&gt; that is truly awesome really is a great resource but, for me it didn&amp;rsquo;t clicked and just felt boring and not aligned with what I wanted, so I left CCNA and started studying a lot of stuff that lead me to not certify myself in months, in a blank space where I didn&amp;rsquo;t knew where to go or to do, but I got a job in cybersecurity and it was awesome! And that made me acknowledge that I&amp;rsquo;m good and I like cybersecurity and blue team operations, that is my thing!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

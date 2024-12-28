@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SIEM on crazyc4t&#39;s blog</title>
+    <link>http://localhost:1313/tags/siem/</link>
+    <description>Recent content in SIEM on crazyc4t&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 06 Dec 2022 14:34:23 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/siem/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Elk stack once and for all!</title>
+      <link>http://localhost:1313/blog/elk-stack/</link>
+      <pubDate>Tue, 06 Dec 2022 14:34:23 -0500</pubDate>
+      <guid>http://localhost:1313/blog/elk-stack/</guid>
+      <description>&lt;p&gt;Welcome to this quick guide on using the ELK stack, specially Elastic&amp;rsquo;s Kibana interface to search, filter and create visualizations and dashboards, taking as an example the investigation of vpn logs for anomalies.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/elk1.png&#34; alt=&#34;elk1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Is a collection of different open-source software developed by Elastic, linked together to take data from endpoints (computers, networks, any source in particular) in any format and being able to perform a search, analyze and visualize the data in real-time.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Boss of the SOC walkthrough</title>
+      <link>http://localhost:1313/blog/botsv3/</link>
+      <pubDate>Tue, 18 Oct 2022 13:03:09 -0500</pubDate>
+      <guid>http://localhost:1313/blog/botsv3/</guid>
+      <description>&lt;h1 id=&#34;starting-point&#34;&gt;Starting point&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Download Boss of the SOC VM from the &lt;a href=&#34;https://tryhackme.com/room/kimctf2022&#34;&gt;THM room&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Import the VM with VirtualBox&lt;/li&gt;&#xA;&lt;li&gt;In the host machine, navigate to &lt;a href=&#34;#ZgotmplZ&#34;&gt;localhost:8000&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;mission-of-the-ctf&#34;&gt;Mission of the CTF&lt;/h2&gt;&#xA;&lt;p&gt;The mission is to look for certain data using the SPL (Splunk Processing Language) being the flags, data.&lt;/p&gt;&#xA;&lt;p&gt;Boss of the SOC is a blue-team CTF that helps you enhance your hunting and analysis skills.&lt;br&gt;&#xA;You will use Splunk and other tools to answer a variety of questions about security incidents that&lt;br&gt;&#xA;have occurred in a realistic but fictitious enterprise environment. It&amp;rsquo;s designed to emulate how&lt;br&gt;&#xA;real security incidents look in Splunk and the type of questions analysts have to answer. The&lt;br&gt;&#xA;objective is to recreate the life of a security analyst facing down an adversary at all stages of an&lt;br&gt;&#xA;attack.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FOSS on crazyc4t&#39;s blog</title>
+    <link>http://localhost:1313/tags/foss/</link>
+    <description>Recent content in FOSS on crazyc4t&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 08 Oct 2022 13:07:44 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/foss/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to play Overwatch 2 in linux</title>
+      <link>http://localhost:1313/blog/overwatch2/</link>
+      <pubDate>Sat, 08 Oct 2022 13:07:44 -0500</pubDate>
+      <guid>http://localhost:1313/blog/overwatch2/</guid>
+      <description>&lt;p&gt;Hello guys! First of all, thanks for reading my blog, overwatch 2 has been released and it&amp;rsquo;s time for us to try it!&lt;/p&gt;&#xA;&lt;p&gt;Playing it on linux is really simple, so feel free to follow along!&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m using arch linux when following this guide, if you are not running arch linux as your linux distribution, don&amp;rsquo;t worry! Just make sure everything is up-to-date with your system.&lt;/p&gt;&#xA;&lt;h2 id=&#34;installing-the-requirements&#34;&gt;Installing the requirements&lt;/h2&gt;&#xA;&lt;p&gt;First of all we need to install:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What to do after installing Fedora KDE</title>
+      <link>http://localhost:1313/blog/debloating_fedora/</link>
+      <pubDate>Tue, 01 Mar 2022 20:59:45 -0500</pubDate>
+      <guid>http://localhost:1313/blog/debloating_fedora/</guid>
+      <description>&lt;p&gt;Welcome again to my blog, it has been a bit of a long time isn&amp;rsquo;t it? But am back once again! And more active than ever so expect so more blogposts coming your way!&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-am-running-fedora&#34;&gt;Why am running fedora&lt;/h2&gt;&#xA;&lt;p&gt;As some of you know, I was using &lt;a href=&#34;https://archlinux.org/&#34;&gt;Arch Linux&lt;/a&gt; with a window manager or &amp;ldquo;WM&amp;rdquo; for simplicity, (If you want to see my dotfiles, &lt;a href=&#34;https://github.com/crazyc4t/dotfiles&#34;&gt;here&amp;rsquo;s the repo&lt;/a&gt;) and It was great! But am on a Laptop, and I needed something more easier to setup since I didn&amp;rsquo;t had the time and in some situations where I needed to take my laptop with me I needed to install some packages and read the wiki, etc for order to make a specific printer work, for example, so it wasn&amp;rsquo;t practical and I just needed something that just worked, bleeding-edge, and a distro that had good documentation and promotes new solutions, and there is where &lt;a href=&#34;https://getfedora.org/&#34;&gt;Fedora&lt;/a&gt; takes place, since I want to learn how to administrate Linux Servers based on &lt;a href=&#34;https://redhat.com&#34;&gt;Red Hat&lt;/a&gt; being the company that sponsors the fedora project, it was a perfect fit for me! So in that way I can learn more about DNF (The package manager), Selinux, BTRFS, ZRAM and all of this greatest and latest tech work!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to free yourself by installing linux</title>
+      <link>http://localhost:1313/blog/freeyourself/</link>
+      <pubDate>Sun, 21 Nov 2021 01:40:22 -0500</pubDate>
+      <guid>http://localhost:1313/blog/freeyourself/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;This is a special blogpost since this is the guide to switch from windows to linux for new users, and the way to free them of propietary software and enjoy their freedom with free software, the software you should run!&lt;/p&gt;&#xA;&lt;p&gt;We are going to divide this guide in steps:&lt;/p&gt;&#xA;&lt;h2 id=&#34;intro-1&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;For the FAQ&amp;rsquo;s I made a &lt;a href=&#34;https://saidneder.tech/blog/penguin&#34;&gt;blogpost&lt;/a&gt; that covers this questions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;What is Linux?&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;What is GNU?&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;What is GNU/Linux?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What is GNU &#43; Linux? Why should you care?</title>
+      <link>http://localhost:1313/blog/penguin/</link>
+      <pubDate>Wed, 22 Sep 2021 18:58:53 -0500</pubDate>
+      <guid>http://localhost:1313/blog/penguin/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;Am going to talk about one of my favourite things in the world, what lead me to where I am today, Linux, the open-source operating system created by the community!&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-linux&#34;&gt;What is linux?&lt;/h2&gt;&#xA;&lt;p&gt;You use Linux everyday, without even noticing, &lt;strong&gt;you are using linux right now!!&lt;/strong&gt; since this&#xA;webpage is hosted on &lt;a href=&#34;https://github.com/&#34;&gt;github&lt;/a&gt;, and github is hosted on &lt;a href=&#34;https://azure.microsoft.com/en-us/&#34;&gt;azure&lt;/a&gt;&#xA;that is the cloud computing service that microsoft offers, that their servers are based on linux, you see the connection?&#xA;&lt;strong&gt;Linux is everywhere!&lt;/strong&gt; and you can&amp;rsquo;t escape it, linux is on your cars, roku devices, servers, super computers,&#xA;android phones, smart devices, and we can go like this for hours, but answering the real question&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -6,23 +6,14 @@ math: true
 ---
 # Hola a todos!
 
-Yo soy Said Neder, conocido mejor como "crazyc4t", y soy estudiante de ciencias de la computación en Fraser International College en Vancouver, Columbia Británica, Canadá! 🇨🇦
+Soy Said Neder, estudiante de Mátematicas y Computación en [Simon Fraser University](https://www.sfu.ca/) en Burnaby, Columbia Británica, Canadá! 🇨🇦
 
-Actualmente trabajo como auxiliar de T.I en Centrum Concierge & Security Ltd y obtengo las siguientes certificaciones:
-- CompTIA A+
-- AWS CCP
+Actualmente trabajo como Técnico de T.I en [Centrum Concierge & Security Ltd.](https://centrumconcierge.com/) y obtengo las siguientes certificaciones:
+- [AWS Certified Cloud Practitioner](misc/aws-ccp.pdf)
+- [CompTIA A+](misc/comptia-a+.pdf)
+- [ISC\\(^2\\) Certified in Cybersecurity](misc/isc2-cc.pdf)
 - IELTS 7.0
 - MET C1
-
-Me encuentro estudiando para mi próxima certificacion siendo [Certified in Cybersecurity](https://www.isc2.org/certifications/cc) hecha por [ISC\\(^2\\)](https://www.isc2.org/).
-
-Esperen muchos blogs de matemática, programación, linux y más, no prometo mucho debido que no subo mucho contenido en español pero trataré lo más que pueda!
-
-Pueden saber más de mi en [mis links](https://crazyc4t.xyz)
-
-
-![Crazyc4t GitHub stats](https://github-readme-stats.vercel.app/api?username=crazyc4t&theme=merko&show_icons=true)
-
 
 ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
 ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)
