@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Red Teaming on crazyc4t&#39;s blog</title>
+    <link>http://localhost:1313/tags/red-teaming/</link>
+    <description>Recent content in Red Teaming on crazyc4t&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 01 Nov 2025 16:29:33 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/red-teaming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prompt Injection: Attacking AI Models</title>
+      <link>http://localhost:1313/blog/promptinjection/</link>
+      <pubDate>Sat, 01 Nov 2025 16:29:33 -0700</pubDate>
+      <guid>http://localhost:1313/blog/promptinjection/</guid>
+      <description>&lt;p&gt;Hello everyone, due to the increasing popularity of AI models, prompt injection attacks have become a significant threat to their security. In this blog, we will discuss first what a prompt injection attack is in the first place, the implications of such attacks, attacking techniques, labs and resources to keep going from here.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m part of the SFU cybersecurity team that will compete to qualify for International Cybersecurity Challenge (ICC) on behalf of Canada. AI hacking would be a new type of CTF challenge that we will be preparing for.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

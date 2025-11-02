@@ -4,8 +4,7 @@ date: 2025-11-01T16:29:33-07:00
 draft: false
 math: true
 description: "Brief introduction to prompt injection attacks techniques and solving labs."
-tags: []
-categories: ["Red Teaming", "ICC Preparation", "AI Security"]
+tags: ["Red Teaming", "ICC Preparation", "AI Security"]
 series: []
 ---
 
