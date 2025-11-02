@@ -5,7 +5,7 @@ date: 2022-06-29T23:32:56-05:00
 image: "images/chill-images/olon.jpeg"
 license: GPLv3
 comments: true
-draft: false
+draft: true
 toc: true
 categories: "Life"
 tags: ["Advice"]

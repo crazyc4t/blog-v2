@@ -5,16 +5,24 @@ weight: 1
 math: true
 ---
 
-# Howdy everyone
+# Howdy
 
-I'm Said Neder, I'm a 2nd year Mathematics and Computing student at [Simon Fraser University](https://www.sfu.ca/) in beautiful Vancouver, British Columbia, Canada! 🇨🇦
+I'm Said Neder, a 2nd year Mathematics and Computing student at [Simon Fraser University](https://www.sfu.ca/) in beautiful Vancouver, British Columbia, Canada. 🇨🇦
 
-I currently work as a I.T help desk in [Centrum Concierge & Security Ltd.](https://centrumconcierge.com/) and hold the following certifications:
+I currently work as a I.T Technician in [Centrum Concierge & Security Ltd.](https://centrumconcierge.com/) and hold the following IT certifications:
 - [AWS Certified Cloud Practitioner](misc/aws-ccp.pdf)
 - [CompTIA A+](misc/comptia-a+.pdf)
 - [ISC\\(^2\\) Certified in Cybersecurity](misc/isc2-cc.pdf)
-- IELTS 7.0
-- MET C1
+
+My area of interest is in:
+- Linux administration
+- Cybersecurity.
+  - AI automations
+  - AI red teaming
+- Chess
+- Mathematics
+
+My current main focus is on AI automations, AI security, custom AI agents and training them so they can be applied in certain contexts for businesses and organizations, where my goal is to reduce the workload of teams and as well replace manual tasks with AI.
 
 ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
 ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)

@@ -6,8 +6,15 @@
     <description>Recent content in Home on crazyc4t&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 22 Mar 2023 11:59:47 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 01 Nov 2025 16:29:33 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prompt Injection: Attacking AI Models</title>
+      <link>http://localhost:1313/blog/promptinjection/</link>
+      <pubDate>Sat, 01 Nov 2025 16:29:33 -0700</pubDate>
+      <guid>http://localhost:1313/blog/promptinjection/</guid>
+      <description>&lt;p&gt;Hello everyone, due to the increasing popularity of AI models, prompt injection attacks have become a significant threat to their security. In this blog, we will discuss first what a prompt injection attack is in the first place, the implications of such attacks, attacking techniques, labs and resources to keep going from here.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m part of the SFU cybersecurity team that will compete to qualify for International Cybersecurity Challenge (ICC) on behalf of Canada. AI hacking would be a new type of CTF challenge that we will be preparing for.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Gophercise #1 &#34;Quiz&#34; Walkthrough!</title>
       <link>http://localhost:1313/blog/gophercise/</link>
@@ -79,13 +86,6 @@
       <description>&lt;h1 id=&#34;how-to-start-programming-with-go&#34;&gt;How to start programming with Go&lt;/h1&gt;&#xA;&lt;p&gt;Hello guys it&amp;rsquo;s crazyc4t once again, sorry for being a bit distant on my blog but prepare yourselves because there&amp;rsquo;s more content in the oven!&lt;/p&gt;&#xA;&lt;p&gt;I disappeared but with a purpose, I was laser-locked focused learning go! And it is really fun, but first&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-go&#34;&gt;What is go?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/gopher-dance-long-3x.gif&#34; alt=&#34;Gopher&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://go.dev/&#34;&gt;Go&lt;/a&gt; is an open-source programming language supported by Google, created by Ken Thompson and Rob Pike, the creators of the UNIX operating system, made for Google-sized problems, being Go a static fast-compiled language, that includes native concurrency, garbage collection and efficiency at scale.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>How to bounce back from a relapse</title>
-      <link>http://localhost:1313/blog/bounceback/</link>
-      <pubDate>Wed, 29 Jun 2022 23:32:56 -0500</pubDate>
-      <guid>http://localhost:1313/blog/bounceback/</guid>
-      <description>&lt;p&gt;Hello my fellow readers! Am back with a new blogpost, and am going to talk about how to bounce back, when you screw up, and have a bad streak that seems to never end, and you get frustrated about it, how is affecting your life, and that you feel that is really difficult to come back as you were before, and you wish everything was like before, but let me tell you, there&amp;rsquo;s a solution, with much hope and faith in yourself you can make it.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>How I passed the compTIA A&#43;</title>
       <link>http://localhost:1313/blog/a&#43;/</link>
       <pubDate>Wed, 20 Apr 2022 12:10:12 -0500</pubDate>
@@ -114,13 +114,6 @@
       <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;This post is going to help you learn \(\LaTeX\) and convert you into a intellectual and scientific professional and by far superior with anyone that shares their report made in word!&lt;/p&gt;&#xA;&lt;p&gt;But before anything&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-all-this-tex-thingy&#34;&gt;What is all this \(\TeX\) thingy?&lt;/h2&gt;&#xA;&lt;p&gt;In summary \(\LaTeX\) is the form of creating a document with the highest quality of typesetting possible, being made with commands you will have to compile it each time to see the result so \(\LaTeX\) isn&amp;rsquo;t a WYSIWYG(what you see is what you get) editor, but don&amp;rsquo;t worry! \(\LaTeX\) is so awesome now that a quick &lt;code&gt;CTRL+S&lt;/code&gt; will compile your result and let you see how you are going on time! so no worries there. The story goes back to 1977 when Donald Knuth understood the need for a high quality typesetting program, and \(\LaTeX\) being still used today shows that is the best tool for it&amp;rsquo;s purpose, although many useful additions have been made and \(\LaTeX\) has evolutionated since then.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>How can overthinking ruin your mindset</title>
-      <link>http://localhost:1313/blog/dontoverthink/</link>
-      <pubDate>Mon, 10 Jan 2022 01:56:57 -0500</pubDate>
-      <guid>http://localhost:1313/blog/dontoverthink/</guid>
-      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;Well first let me welcome you to this new year 2022! I wish you the best for this year and time to rock on and create and achieve what you most want! I welcome you to this new year with this new blog post! I haven&amp;rsquo;t write an advice post in a while so let&amp;rsquo;s get started!&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-overthinking&#34;&gt;What is overthinking?&lt;/h2&gt;&#xA;&lt;p&gt;Overthinking is just the action to before doing something you think a lot of that action so you can excuse yourself to not do it, If you need to training, but before showering and getting ready you are already thinking &amp;ldquo;My pinky toe hurts a bit I should stay&amp;hellip;&amp;rdquo; just getting excuses on top of your head to not do something that you don&amp;rsquo;t feel like doing.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Vim for everyone!</title>
       <link>http://localhost:1313/blog/vimforeveryone/</link>
       <pubDate>Sun, 09 Jan 2022 22:00:04 -0500</pubDate>
@@ -142,25 +135,11 @@
       <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;This is a tutorial-type of blogpost, sorry for being away so long, but there&amp;rsquo;s a lot of blogposts coming to your way, so expect some new ones!&lt;/p&gt;&#xA;&lt;p&gt;What we want to achieve in this tutorial:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;To have a fast terminal emulator&lt;/li&gt;&#xA;&lt;li&gt;To have a better shell with auto-completition&lt;/li&gt;&#xA;&lt;li&gt;To have a cool-looking with color scheme terminal&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;So let&amp;rsquo;s start with that!&lt;/p&gt;&#xA;&lt;h2 id=&#34;alacritty-the-fastest-opengl-terminal-emulator&#34;&gt;Alacritty, the fastest openGL terminal emulator&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/alacritty/alacritty&#34;&gt;Alacritty&lt;/a&gt; is the fastest terminal emulator out there, and the best of all is that is cross-platform! so you can install it on windows too! Although this guide is more toward linux users but if you are here from windows you can follow along too!&lt;/p&gt;</description>
     </item>
     <item>
-      <title>How to comeback and win in life</title>
-      <link>http://localhost:1313/blog/comeback/</link>
-      <pubDate>Wed, 13 Oct 2021 23:53:55 -0500</pubDate>
-      <guid>http://localhost:1313/blog/comeback/</guid>
-      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;First of all, let&amp;rsquo;s talk about the definition of the word &lt;strong&gt;comeback&lt;/strong&gt; shall we?&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Comeback: a return to a former higher rank, popularity, position, prosperity, etc.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;With that being said, a comeback is when you are on the low side of your streak and you make&#xA;the effort to get back where you deserve and were.&lt;/p&gt;&#xA;&lt;p&gt;This is critical in life, you will have a lot of situations that will demotivate you,&#xA;stop your momentum, your rhythm, and make you begin from scratch again,&#xA;and it will be difficult, to not say painful, since from your growth zone you fell back&#xA;to your comfort zone, and then is when you have to get &lt;strong&gt;up.&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>What is GNU &#43; Linux? Why should you care?</title>
       <link>http://localhost:1313/blog/penguin/</link>
       <pubDate>Wed, 22 Sep 2021 18:58:53 -0500</pubDate>
       <guid>http://localhost:1313/blog/penguin/</guid>
       <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;Am going to talk about one of my favourite things in the world, what lead me to where I am today, Linux, the open-source operating system created by the community!&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-linux&#34;&gt;What is linux?&lt;/h2&gt;&#xA;&lt;p&gt;You use Linux everyday, without even noticing, &lt;strong&gt;you are using linux right now!!&lt;/strong&gt; since this&#xA;webpage is hosted on &lt;a href=&#34;https://github.com/&#34;&gt;github&lt;/a&gt;, and github is hosted on &lt;a href=&#34;https://azure.microsoft.com/en-us/&#34;&gt;azure&lt;/a&gt;&#xA;that is the cloud computing service that microsoft offers, that their servers are based on linux, you see the connection?&#xA;&lt;strong&gt;Linux is everywhere!&lt;/strong&gt; and you can&amp;rsquo;t escape it, linux is on your cars, roku devices, servers, super computers,&#xA;android phones, smart devices, and we can go like this for hours, but answering the real question&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Why minimalism is important in your life</title>
-      <link>http://localhost:1313/blog/minimalism/</link>
-      <pubDate>Tue, 21 Sep 2021 23:13:03 -0500</pubDate>
-      <guid>http://localhost:1313/blog/minimalism/</guid>
-      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;This is my first (and not last) blogpost talking about life advice and my opinions&#xA;so just buckle up and enjoy the ride!&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-minimalism-in-the-first-place&#34;&gt;What is minimalism in the first place?&lt;/h2&gt;&#xA;&lt;p&gt;Is really self-explanatory isn&amp;rsquo;t it? Minimalism is just to live with the bare minimum,&#xA;and that goes for everything in life, from your house decorations to your life activities,&#xA;and the concept of minimalism really is to achieve simplicity with essential quality,&#xA;and that means that is perfect, no need for more or less.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,7 +1,7 @@
 {
   "title": "Why minimalism is important in your life",
   "date": "2021-09-21T23:13:03-05:00",
-  "draft": false,
+  "draft": true,
   "author": "Said Neder",
   "tags": ["Advice"],
   "toc": true,

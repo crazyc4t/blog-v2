@@ -1,12 +1,12 @@
 ---
 title: "How can overthinking ruin your mindset"
 date: 2022-01-10T01:56:57-05:00
-draft: false
+draft: true
 author: "Said Neder"
 tags: ["Advice"]
 toc: true
 categories: "Life"
-image: "images/chill-images/baños.jpeg" 
+image: "images/chill-images/baños.jpeg"
 ---
 ## Intro
 

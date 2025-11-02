@@ -1,14 +1,14 @@
 {
   "title": "How to comeback and win in life",
   "date": "2021-10-13T23:53:55-05:00",
-  "draft": false,
+  "draft": true,
   "author": "Said Neder",
   "tags": ["Advice"],
   "toc": true,
   "image": "/images/chill-images/cuicocha.jpeg",
   "categories": "Life"
 }
-## Intro
+## Intro SAid
 
 First of all, let's talk about the definition of the word **comeback** shall we?
 
